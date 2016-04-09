@@ -1,0 +1,18 @@
+{
+    "social": {
+        "weibo": "http://weibo.com/hydra7249",
+        "star-half-o": "http://www.douban.com/people/36529994/",
+        "lightbulb-o": "http://www.zhihu.com/people/xia-xue-tian-88",
+        "twitter": "https://twitter.com/hydra7249",
+        "pinterest": "https://www.pinterest.com/snowvivi/",
+        "github": "https://github.com/olddoggie",
+        "rss": "/atom.xml"
+    },
+    "extern": {
+		"Zhixingheyi": "http://foredoomed.org/",
+		"rokgy的博客": "http://blog.sina.com.cn/rokgy",
+		"dandyweng的博客": "http://www.dandyweng.com/",
+		"Life Journal": "https://xiaolife.com/",
+		"Netcan": "http://www.netcan666.com/"
+    }
+}
