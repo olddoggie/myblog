@@ -69,8 +69,8 @@ theme: raytaylorism
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@139.162.16.182:myblog.git
-  branch: master
+  repo: git@github.com:olddoggie/myblog.git
+  branch: SITE
 
 archive_generator:
   per_page: 0
