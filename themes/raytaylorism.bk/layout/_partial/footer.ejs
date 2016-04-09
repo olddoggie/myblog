@@ -1,0 +1,48 @@
+<footer class="page-footer <%= theme.color.footer %> darken-1">
+    <% if (site.data.link) { %>
+    <div class="container">
+        <div class="row">
+            <% if (site.data.link.social) { %>
+            <div class="social-group col m4 s12">
+                <h5 class="white-text">社交</h5>
+                <% for (var type in site.data.link.social) { %>
+                    <a class="social-link" href="<%= site.data.link.social[type] %>" target="_blank">
+                        <i class="fa fa-2x fa-<%= type %>"></i>
+                    </a>
+                <% } %>
+            </div>
+            <% } %>
+
+            <% if (site.data.link && site.data.link.extern) { %>
+            <div class="col m8 s12">
+                <h5 class="white-text">友情链接</h5>
+                <% for (var name in site.data.link.extern) { %>
+                    <a class="social-link" href="<%= site.data.link.extern[name] %>" target="_blank"><%= name %></a>
+                <% } %>
+            </div>
+            <% } %>
+        </div>
+    </div>
+    <% } %>
+
+
+    <div class="footer-copyright <%= theme.color.link %>-link-context">
+        <div class="container">
+            <div class="row">
+                <div class="col m4 s12">
+                    <%= theme.copyright %>
+                </div>
+                <div class="col m8 s12">
+                    <i class="fa fa-rocket"></i> Hexo | 主题 raytaylorism
+                    | 总字数 <span><%= totalcount(site) %></span>
+                    | 总访问量 <span id="busuanzi_value_site_pv"></span> |
+                    访客人次 <span id="busuanzi_value_site_uv"></span> |
+                    页点击量 <span id="busuanzi_value_page_pv"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+    </script>
+</footer>

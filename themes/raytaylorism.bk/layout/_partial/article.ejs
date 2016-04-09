@@ -1,0 +1,42 @@
+<% var aboutData = site.data.about; %>
+
+<%- partial('pagenav', {nav_head: '当前位置（目录）', partial_path: 'post/category', archive_html: null}) %>
+<article>
+    <div class="card">
+        <div class="card-content">
+            <% if (item.photos && item.photos.length) { %>
+                <%- partial('post/gallery') %>
+            <% } %>
+
+            <div class="article-title">
+                <%- partial('post/title') %>
+            </div>
+            <span class="grey-text">发表于</span>
+            <%- partial('post/time') %>
+            <span class="grey-text"> | 字数</span>
+            <span class="<%= theme.color.link %>-link-context"><a href="<%- config.root %><%- item.path %>"><%= wordcount(item.content) %></a></span>
+            <span class="grey-text"> | 预计阅读时间</span>
+            <span class="<%= theme.color.link %>-link-context"><a href="<%- config.root %><%- item.path %>"><%= min2read(item.content) %>分钟</a></span>
+            <%- partial('post/tag') %>
+            <%- partial('post/tablecontents') %>
+
+            <div class="entry <%= theme.color.link %>-link-context">
+                <%- item.content %>
+            </div>
+
+            <% if (aboutData.reward && aboutData.reward.length > 0) { %>
+            <section class="reward">
+                <%- partial('_partial/plugin/reward') %>
+            </section>
+            <% } %>
+
+            <!-- 阅读量 -->
+            <span id="busuanzi_container_page_pv">
+            <i class="fa fa-eye"></i>
+                文章阅读量 <span id="busuanzi_value_page_pv" style="color:<%= theme.color.link %>">-link-context"></span>次
+            </span>
+        </div>
+    </div>
+</article>
+
+<%- partial('plugin/comment') %>
