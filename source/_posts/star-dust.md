@@ -13,3 +13,4 @@ photos:
 ![stardust](http://7xr6h2.com1.z0.glb.clouddn.com/stardust.jpg)
 
 > 从宇宙大爆炸起至今为止，我们所有的存在，都只是分布不同地方的星辰。
+<!--more-->
