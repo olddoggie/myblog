@@ -1,3 +1,4 @@
+---
 title: 说好的 xargs -i 呢
 tags:
   - shell

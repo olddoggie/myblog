@@ -2,10 +2,9 @@
 title: 星辰
 tags:
   - stardust
-  - 星辰
-id: 15
+  - 随笔
 categories:
-  - 日记
+  - 生活
 date: 2013-12-04 21:54:01
 photos:
 - http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpg
