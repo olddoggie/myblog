@@ -1,1 +1,12 @@
-jkissday.onlie
+jkissday.online
+
+npm install -g hexo
+
+hexo clean
+hexo g
+hexo d
+
+cd $SITE_DIR
+git reset --hard origin/SITE
+git clean -f
+git pull

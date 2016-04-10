@@ -113,7 +113,7 @@
                         <i class="fa fa-heartbeat"></i>&nbsp;兴趣爱好</h1>
                     <ul class="skill-list">
                         <% for (var hob in aboutData.hobbies) { %>
-                        <% if (aboutData.hobbies[hob] > 0) { %>
+                        <% if (aboutData.hobbies[hob] >= 0) { %>
                         <li class="row">
                             <div class="col s4 m3 l2"><%= hob %></div>
                             <div class="col s8 m9 l10">
