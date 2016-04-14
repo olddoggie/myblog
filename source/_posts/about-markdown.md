@@ -1,34 +1,21 @@
-title: 难言小事
+title: 关于markdown
 tags:
-  - 随感
+  - markdown
 categories:
-  - 生活
-date: 2014-06-16 23:30:00
+  - 技术
+date: 2016-04-16 23:30:00
 ---
-:chart_with_upwards_trend: Learn to use task-md
+# 前言
 
-:white_large_square: Learn to use task-md
+从3月份以来，渐渐使用 hexo + github + vps 的方式重新构建了自己的博客，之后有时间也写一篇博客重组的文章。
 
-# 欢迎使用 Cmd Markdown 编辑阅读器
+大体的工作流是：hexo快速编译markdown语法的文字，形成静态页面，提交到github仓库后，通过github的webhook触发vps的持续构建进行部署，整个流程十分简练，静态页面的blog少了以往那种重型的加载，也没有数据库备份、迁移的后顾之忧，所有的文字、图片、视频链接，都是以md格式的markdown文件保存在git版本库，完美！
 
-------
+<!--more-->
 
-我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：
+作为书写文章的利器，markdown语法真是越来越受到大家的追捧，甚至锤子便签都加入了支持markdown语法的功能，实在令人欣喜。这从侧面也反映出一个真理：是金子就一定会发光的！我认为markdown最大的好处是定义了一种简单的语法，使得富文本静态页面的编写开销大大降低，其呈现出来的效果又简约而精确。相信我，只要用这种语法写过一两篇博文，你就会成为忠实粉。
 
-> * 整理知识，学习笔记
-> * 发布日记，杂文，所见所想
-> * 撰写发布技术文稿（代码支持）
-> * 撰写发布学术论文（LaTeX 公式支持）
-
-![cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png)
-
-除了您现在看到的这个 Cmd Markdown 在线版本，您还可以前往以下网址下载：
-
-### [Windows/Mac/Linux 全平台客户端](https://www.zybuluo.com/cmd/)
-
-> 请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 <i class="icon-file"></i> **新文稿** 或者使用快捷键 `Ctrl+Alt+N`。
-
-------
+---
 
 ## 什么是 Markdown
 
@@ -36,11 +23,15 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 ### 1. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
 
-- [ ] 支持以 PDF 格式导出文稿 :smile:
-- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
-- [x] 新增 Todo 列表功能
-- [x]  修复 LaTex 公式渲染问题
-- [x] 新增 LaTex 公式编号功能
+✅ 支持以 PDF 格式导出文稿 :smile:
+
+:white_large_square: 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+
+:white_large_square: 新增 Todo 列表功能
+
+:white_large_square:  修复 LaTex 公式渲染问题
+
+:white_large_square: 新增 LaTex 公式编号功能
 
 ### 2. 书写一个质能守恒公式[^LaTeX]
 
@@ -95,9 +86,21 @@ Bob-->Alice: I am good thanks!
 
 ---
 
-## 什么是 Cmd Markdown
+# Cmd Markdown 编辑阅读器
 
-您可以使用很多工具书写 Markdown，但是 Cmd Markdown 是这个星球上我们已知的、最好的 Markdown 工具——没有之一 ：）因为深信文字的力量，所以我们和你一样，对流畅书写，分享思想和知识，以及阅读体验有极致的追求，我们把对于这些诉求的回应整合在 Cmd Markdown，并且一次，两次，三次，乃至无数次地提升这个工具的体验，最终将它演化成一个 **编辑/发布/阅读** Markdown 的在线平台——您可以在任何地方，任何系统/设备上管理这里的文字。
+我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：
+
+> * 整理知识，学习笔记
+> * 发布日记，杂文，所见所想
+> * 撰写发布技术文稿（代码支持）
+> * 撰写发布学术论文（LaTeX 公式支持）
+
+Cmd Markdown 在线版本，您还可以前往以下网址下载：
+
+[Windows/Mac/Linux 全平台客户端](https://www.zybuluo.com/cmd/)
+
+
+您可以使用很多工具书写 Markdown，但是 Cmd Markdown 是这个星球上我们已知的、最好的 Markdown 工具——没有之一。:smile: 因为深信文字的力量，所以我们和你一样，对流畅书写，分享思想和知识，以及阅读体验有极致的追求，我们把对于这些诉求的回应整合在 Cmd Markdown，并且一次，两次，三次，乃至无数次地提升这个工具的体验，最终将它演化成一个 **编辑/发布/阅读** Markdown 的在线平台——您可以在任何地方，任何系统/设备上管理这里的文字。
 
 ### 1. 实时同步预览
 
@@ -160,20 +163,13 @@ Bob-->Alice: I am good thanks!
 
 标签： 未分类
 
-标签以后的文稿在【文件列表】（Ctrl+Alt+F）里会按照标签分类，用户可以同时使用键盘或者鼠标浏览查看，或者在【文件列表】的搜索文本框内搜索标题关键字过滤文稿，如下图所示：
+标签以后的文稿在【文件列表】`Ctrl+Alt+F` 里会按照标签分类，用户可以同时使用键盘或者鼠标浏览查看，或者在【文件列表】的搜索文本框内搜索标题关键字过滤文稿，如下图所示：
 
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
 
 ### 10. 文稿发布和分享
 
-在您使用 Cmd Markdown 记录，创作，整理，阅读文稿的同时，我们不仅希望它是一个有力的工具，更希望您的思想和知识通过这个平台，连同优质的阅读体验，将他们分享给有相同志趣的人，进而鼓励更多的人来到这里记录分享他们的思想和知识，尝试点击 <i class="icon-share"></i> (Ctrl+Alt+P) 发布这份文档给好友吧！
-
-------
-
-再一次感谢您花费时间阅读这份欢迎稿，点击 <i class="icon-file"></i> (Ctrl+Alt+N) 开始撰写新的文稿吧！祝您在这里记录、阅读、分享愉快！
-
-作者 [@ghosert][3]
-2015 年 06月 15日
+在您使用 Cmd Markdown 记录，创作，整理，阅读文稿的同时，我们不仅希望它是一个有力的工具，更希望您的思想和知识通过这个平台，连同优质的阅读体验，将他们分享给有相同志趣的人，进而鼓励更多的人来到这里记录分享他们的思想和知识，尝试点击 <i class="icon-share"></i> `Ctrl+Alt+P` 发布这份文档给好友吧！
 
 [^LaTeX]: 支持 **LaTeX** 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 [MathJax][4] 参考更多使用方法。
 

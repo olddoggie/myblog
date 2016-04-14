@@ -40,7 +40,7 @@ date: 2014-03-04 22:07:56
 	192.168.0.232 XXXX.com
 ```
 
-- sudo service postfix start<
+- sudo service postfix start
 
 - echo "Test mail from postfix" | mail -s "Test Postfix" xx@<span>XXXX.com  --> test ok, logs can be seen under: /var/log/maillog
 
