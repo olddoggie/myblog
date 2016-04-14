@@ -17,7 +17,7 @@ date: 2014-10-16 22:55:10
 
 烙印在我头脑里的这幅画面[^pires]，也永远烙印在我心里。无论到何时，它都是我珍藏的记忆。<span style="color:#E53333;">因为那年的阿森纳[^unbeaten]，我才知道足球有多美好，生活有多美好！</span>
 
-> Gonner Till I Die !
+> 沉思往事立残阳，当时只道是寻常。 Gunner till I die !
 
 <iframe height=498 width=510 src="http://player.youku.com/embed/XNzM4OTIxNDA=" frameborder=0 allowfullscreen></iframe>
 
