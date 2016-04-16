@@ -5,7 +5,7 @@ categories:
   - 技术
 date: 2016-04-16 23:30:00
 ---
-# 前言
+# **前言**
 
 从3月份以来，渐渐使用 hexo + github + vps 的方式重新构建了自己的博客，之后有时间也写一篇博客重组的文章。
 
@@ -17,11 +17,11 @@ date: 2016-04-16 23:30:00
 
 ---
 
-## 什么是 Markdown
+# **什么是 Markdown**
 
 Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
 
-### 1. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
+## **1. 制作一份待办事宜** [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
 
 ✅ 支持以 PDF 格式导出文稿 :smile:
 
@@ -33,11 +33,11 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 :white_large_square: 新增 LaTex 公式编号功能
 
-### 2. 书写一个质能守恒公式[^LaTeX]
+## **2. 书写一个质能守恒公式**[^LaTeX]
 
 $$E=mc^2$$
 
-### 3. 高亮一段代码[^code]
+## **3. 高亮一段代码**[^code]
 
 ```python
 @requires_authorization
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     print 'hello world'
 ```
 
-### 4. 高效绘制 [流程图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图)
+## **4. 高效绘制** [流程图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图)
 
 ```flow
 st=>start: Start
@@ -62,7 +62,7 @@ cond(yes)->e
 cond(no)->op
 ```
 
-### 5. 高效绘制 [序列图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-序列图)
+## **5. 高效绘制** [序列图](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-序列图)
 
 ```seq
 Alice->Bob: Hello Bob, how are you?
@@ -70,7 +70,7 @@ Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
-### 6. 绘制表格
+## **6. 绘制表格**
 
 | 项目        | 价格   |  数量  |
 | --------   | -----:  | :----:  |
@@ -78,7 +78,7 @@ Bob-->Alice: I am good thanks!
 | 手机        |   \$12   |   12   |
 | 管线        |    \$1    |  234  |
 
-### 7. 更详细语法说明
+## **7. 更详细语法说明**
 
 想要查看更详细的语法说明，可以参考我们准备的 [Cmd Markdown 简明语法手册][1]，进阶用户可以参考 [Cmd Markdown 高阶语法手册][2] 了解更多高级功能。
 
@@ -86,7 +86,7 @@ Bob-->Alice: I am good thanks!
 
 ---
 
-# Cmd Markdown 编辑阅读器
+# **Cmd Markdown 编辑阅读器**
 
 我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**Cmd Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：
 
@@ -102,29 +102,29 @@ Cmd Markdown 在线版本，您还可以前往以下网址下载：
 
 您可以使用很多工具书写 Markdown，但是 Cmd Markdown 是这个星球上我们已知的、最好的 Markdown 工具——没有之一。:smile: 因为深信文字的力量，所以我们和你一样，对流畅书写，分享思想和知识，以及阅读体验有极致的追求，我们把对于这些诉求的回应整合在 Cmd Markdown，并且一次，两次，三次，乃至无数次地提升这个工具的体验，最终将它演化成一个 **编辑/发布/阅读** Markdown 的在线平台——您可以在任何地方，任何系统/设备上管理这里的文字。
 
-### 1. 实时同步预览
+## **1. 实时同步预览**
 
 我们将 Cmd Markdown 的主界面一分为二，左边为**编辑区**，右边为**预览区**，在编辑区的操作会实时地渲染到预览区方便查看最终的版面效果，并且如果你在其中一个区拖动滚动条，我们有一个巧妙的算法把另一个区的滚动条同步到等价的位置，超酷！
 
-### 2. 编辑工具栏
+## **2. 编辑工具栏**
 
 也许您还是一个 Markdown 语法的新手，在您完全熟悉它之前，我们在 **编辑区** 的顶部放置了一个如下图所示的工具栏，您可以使用鼠标在工具栏上调整格式，不过我们仍旧鼓励你使用键盘标记格式，提高书写的流畅度。
 
 ![tool-editor](https://www.zybuluo.com/static/img/toolbar-editor.png)
 
-### 3. 编辑模式
+## **3. 编辑模式**
 
 完全心无旁骛的方式编辑文字：点击 **编辑工具栏** 最右测的拉伸按钮或者按下 `Ctrl + M`，将 Cmd Markdown 切换到独立的编辑模式，这是一个极度简洁的写作环境，所有可能会引起分心的元素都已经被挪除，超清爽！
 
-### 4. 实时的云端文稿
+## **4. 实时的云端文稿**
 
 为了保障数据安全，Cmd Markdown 会将您每一次击键的内容保存至云端，同时在 **编辑工具栏** 的最右侧提示 `已保存` 的字样。无需担心浏览器崩溃，机器掉电或者地震，海啸——在编辑的过程中随时关闭浏览器或者机器，下一次回到 Cmd Markdown 的时候继续写作。
 
-### 5. 离线模式
+## **5. 离线模式**
 
 在网络环境不稳定的情况下记录文字一样很安全！在您写作的时候，如果电脑突然失去网络连接，Cmd Markdown 会智能切换至离线模式，将您后续键入的文字保存在本地，直到网络恢复再将他们传送至云端，即使在网络恢复前关闭浏览器或者电脑，一样没有问题，等到下次开启 Cmd Markdown 的时候，她会提醒您将离线保存的文字传送至云端。简而言之，我们尽最大的努力保障您文字的安全。
 
-### 6. 管理工具栏
+## **6. 管理工具栏**
 
 为了便于管理您的文稿，在 **预览区** 的顶部放置了如下所示的 **管理工具栏**：
 
@@ -139,7 +139,7 @@ Cmd Markdown 在线版本，您还可以前往以下网址下载：
 <i class="icon-reorder"></i> 列表：所有新增和过往的文稿都可以在这里查看、操作
 <i class="icon-pencil"></i> 模式：切换 普通/Vim/Emacs 编辑模式
 
-### 7. 阅读工具栏
+## **7. 阅读工具栏**
 
 ![tool-manager](https://www.zybuluo.com/static/img/toolbar-reader.jpg)
 
@@ -153,11 +153,11 @@ Cmd Markdown 在线版本，您还可以前往以下网址下载：
 <i class="icon-desktop"></i> 阅读：心无旁骛的阅读模式提供超一流的阅读体验
 <i class="icon-fullscreen"></i> 全屏：简洁，简洁，再简洁，一个完全沉浸式的写作和阅读环境
 
-### 8. 阅读模式
+## **8. 阅读模式**
 
 在 **阅读工具栏** 点击 <i class="icon-desktop"></i> 或者按下 `Ctrl+Alt+M` 随即进入独立的阅读模式界面，我们在版面渲染上的每一个细节：字体，字号，行间距，前背景色都倾注了大量的时间，努力提升阅读的体验和品质。
 
-### 9. 标签、分类和搜索
+## **9. 标签、分类和搜索**
 
 在编辑区任意行首位置输入以下格式的文字可以标签当前文档：
 
@@ -167,7 +167,7 @@ Cmd Markdown 在线版本，您还可以前往以下网址下载：
 
 ![file-list](https://www.zybuluo.com/static/img/file-list.png)
 
-### 10. 文稿发布和分享
+## **10. 文稿发布和分享**
 
 在您使用 Cmd Markdown 记录，创作，整理，阅读文稿的同时，我们不仅希望它是一个有力的工具，更希望您的思想和知识通过这个平台，连同优质的阅读体验，将他们分享给有相同志趣的人，进而鼓励更多的人来到这里记录分享他们的思想和知识，尝试点击 <i class="icon-share"></i> `Ctrl+Alt+P` 发布这份文档给好友吧！
 
@@ -179,4 +179,3 @@ Cmd Markdown 在线版本，您还可以前往以下网址下载：
 [2]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册
 [3]: http://weibo.com/ghosert
 [4]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-
