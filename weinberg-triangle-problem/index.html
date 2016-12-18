@@ -7,7 +7,7 @@
 
     
 
-    <title>我爱夏雪天</title>
+    <title>Weinberg Triangle Problem | 我爱夏雪天</title>
     <meta name="author" content="Jack Wang">
     
     <meta name="description" content="长啸一声会有时!">
@@ -15,7 +15,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="Weinberg Triangle Problem"/>
     <meta property="og:site_name" content="我爱夏雪天"/>
 
     
@@ -285,6 +285,10 @@
         <span class="breadcrumb">当前位置（目录）</span>
         
             
+    
+    
+    <a class="breadcrumb" href="/categories/技术/">技术</a><a class="breadcrumb" href="/categories/技术/测试/">测试</a>
+
 
         
 
@@ -300,34 +304,250 @@
             <div class="article-title">
                 
     
-        <h1>无题</h1>
+        <h1>Weinberg Triangle Problem</h1>
     
 
 
             </div>
             <span class="grey-text">发表于</span>
-            <time class="indigo-link-context" datetime="2016-12-11T10:57:11.000Z"><a href="/404.html">2016-12-11</a></time>
+            <time class="indigo-link-context" datetime="2014-03-05T23:49:07.000Z"><a href="/weinberg-triangle-problem/">2014-03-06</a></time>
 
             <span class="grey-text"> | 字数</span>
-            <span class="indigo-link-context"><a href="/404.html">31</a></span>
+            <span class="indigo-link-context"><a href="/weinberg-triangle-problem/">2,602</a></span>
             <span class="grey-text"> | 预计阅读时间</span>
-            <span class="indigo-link-context"><a href="/404.html">0分钟</a></span>
+            <span class="indigo-link-context"><a href="/weinberg-triangle-problem/">16分钟</a></span>
             
+    <div class="tags-row">
+        
+            <a href="/tags/weinberg三角形/" class="chip green accent-4">weinberg三角形</a>
+        
+    </div>
+
 
             <div class="toc indigo-link-context hide-on-med-and-down">
-    
+    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#前言"><span class="section table-of-contents-text">前言</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#温伯格三角问题"><span class="section table-of-contents-text">温伯格三角问题</span></a></li><li class="section table-of-contents-item section table-of-contents-level-1"><a class="section table-of-contents-link" href="#reference"><span class="section table-of-contents-text">Reference</span></a></li></ol>
 </div>
 
 
             <div class="entry indigo-link-context">
-                <!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://jkissday.online" homepagename="&#x56DE;&#x5230;&#x6211;&#x7684;&#x4E3B;&#x9875;"></script>
-</body>
-</html>
+                <h1 id="&#x524D;&#x8A00;"><strong>&#x524D;&#x8A00;</strong></h1>
+<p>&#x8F6C;&#x4E00;&#x7BC7;&#x5F88;&#x6709;&#x610F;&#x601D;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x5173;&#x4E8E;&#x6E29;&#x4F2F;&#x683C;&#x4E09;&#x89D2;&#x5F62;&#x8BDD;&#x9898;&#x3002;</p>
+<p>&#x6211;&#x4E00;&#x5F00;&#x59CB;&#x60F3;&#x7684;&#x4E5F;&#x53EA;&#x662F;&#x4EC5;&#x9650;&#x4E8E;&#x4E00;&#x4E2A;&#x5408;&#x6CD5;&#x6574;&#x578B;&#x6570;&#x636E;&#x5BFC;&#x81F4;&#x7684;&#x4E0D;&#x5408;&#x6CD5;&#x4E09;&#x89D2;&#x5F62;&#xFF0C;&#x4E00;&#x4E2A;&#x4E0D;&#x89C4;&#x5219;&#x4E09;&#x89D2;&#x5F62;&#xFF0C;&#x4E00;&#x4E2A;&#x9488;&#x5BF9;&#x7B49;&#x8170;&#x4E09;&#x89D2;&#x5F62;&#xFF0C;&#x4E00;&#x4E2A;&#x9488;&#x5BF9;&#x7B49;&#x8FB9;&#x4E09;&#x89D2;&#x5F62;&#xFF0C;&#x8FD9;&#x56DB;&#x79CD;&#x7B80;&#x5355;&#x7684;&#x7528;&#x4F8B;&#x3002;</p>
+<p>&#x4F46;&#x5176;&#x5B9E;&#x53EA;&#x8986;&#x76D6;&#x4E86;&#x5173;&#x952E;&#x8DEF;&#x5F84;&#x7684;50%&#xFF0C; &#x7B2C;&#x4E00;&#x4E2A;&#x7528;&#x4F8B;&#x7684;&#x5206;&#x53C9;&#x6709;&#x4E00;&#x6761;&#x5F88;&#x5173;&#x952E;&#x7684;&#x4EE3;&#x7801;&#x8DEF;&#x5F84;&#x5F80;&#x5F80;&#x88AB;&#x9057;&#x6F0F;&#xFF0C; &#x6BD4;&#x5982;&#x4F60;&#x8F93;&#x5165;2&#xFF0C;2&#xFF0C;4&#xFF0C; &#x90A3;&#x7CFB;&#x7EDF;&#x662F;&#x544A;&#x8BC9;&#x4F60;&#x8FD9;&#x4E2A;&#x4E09;&#x89D2;&#x5F62;&#x4E0D;&#x5408;&#x6CD5;&#x5462;&#xFF0C;&#x8FD8;&#x662F;&#x544A;&#x8BC9;&#x4F60;&#x606D;&#x559C;&#x4F60;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x7B49;&#x8170;&#x4E09;&#x89D2;&#x5F62;&#xFF01;</p>
+<a id="more"></a>
+<hr>
+<h1 id="&#x6E29;&#x4F2F;&#x683C;&#x4E09;&#x89D2;&#x95EE;&#x9898;"><strong>&#x6E29;&#x4F2F;&#x683C;&#x4E09;&#x89D2;&#x95EE;&#x9898;</strong></h1>
+<p><strong><em>Exercise: Analyzing the Triangle Problem</em></strong></p>
+<p>Copyright Ross Collard, Collard &amp; Company, 2004. Excerpt from my book: &#x201C;Developing</p>
+<p>Effective Test Cases&#x201D;.</p>
+<br>
+<p><em>(Allow 15 to 20 minutes for this exercise.)</em></p>
+<p>Consider the following software program. It reads three input data values. These values</p>
+<p>represent the three lengths of the sides of a triangle. The purpose of this program is to</p>
+<p>display a message which states whether the triangle is scalene (i.e., no two sides are</p>
+<p>equal), isosceles (two sides equal) or equilateral (all sides equal). As software goes, this</p>
+<p>is very low in complexity. How do we test it? This challenge was posited by Jerry</p>
+<p>Weinberg, and described by Glen Myers in his classic book, &quot;The Art of Software</p>
+<p>Testing&quot;.</p>
+<br>
+<p>Develop a list of test cases for this triangle problem. The table format below is</p>
+<p>convenient for listing your test cases, though you do not have to follow it. I have</p>
+<p>provided the first few test cases to help you get started:</p>
+<p><strong>Test Case</strong></p>
+<p><strong>Condition Being</strong></p>
+<p><strong>Tested</strong><span class="s1">******</span></p>
+<p><strong>Input Data</strong></p>
+<p><strong>Values</strong><span class="s1">*****</span></p>
+<p><strong>Expected Result</strong></p>
+<p><strong>i j k</strong></p>
+<ol>
+<li>
+<p>Three valid equal sides 7 7 7 Equilateral triangle</p>
+</li>
+<li>
+<p>Two equal valid sides 5 5 3 Isosceles triangle</p>
+</li>
+<li>
+<p>Two equal valid sides;</p>
+</li>
+</ol>
+<p>third side invalid</p>
+<p>8 8 % Error message: invalid</p>
+<p>input data value</p>
+<p><span class="s1">* </span>Where i, j, and k are the names of the three sides of the triangle.</p>
+<p><span class="s1">** </span>You may find the word &#x201C;condition&#x201D; to be vague. I mean the test requirement; the</p>
+<p>circumstance or situation which we want the test case to check.</p>
+<br>
+<p><strong><em>Lessons and Conclusions from the Triangle Problem</em></strong></p>
+<p>In experiments at IBM and other organizations, researchers asked experienced systems</p>
+<p>professionals to identify an adequate set of test cases for the triangle problem. The</p>
+<p>researchers gave the participants in these experiments unlimited time for this task. The</p>
+<p>results of these experiments have been judged to be deplorable: on average, people listed</p>
+<p>only about one third of the test cases needed for an adequate test. In his book, &#x201C;<em>Software</em></p>
+<p><em>Testing: A Craftsman&#x2019;s Approach</em>&#x201D;, Paul Jorgensen lists about 185 test cases for this</p>
+<p>problem. How many did you identify?</p>
+<br>
+<p>I have problems with this &#x201C;deplorable&#x201D; interpretation. Adequacy must be assessed with</p>
+<p>regard to context. For the functionality specified in the exercise, I could argue that these</p>
+<p>four test cases are sufficient to test adequately:</p>
+<p>Test Case Input Values Expected Results</p>
+<ol>
+<li>
+<p>3, 3, 3 Equilateral Triangle</p>
+</li>
+<li>
+<p>3, 3, 2 Isosceles Triangle</p>
+</li>
+<li>
+<p>3, 4, 5 Scalene Triangle</p>
+</li>
+<li>
+<p>3, 3, ? Invalid Input</p>
+</li>
+</ol>
+<br>
+<p>There are possible defects that would not be detected by this set of four test cases,</p>
+<p>however, so other people may advocate a more thorough test. Kent Beck has written that</p>
+<p>he thinks that six test cases would be adequate for his implementation of the triangle</p>
+<p>problem, and compares this to the 65 test cases that Bob Binder describes. This sounds</p>
+<p>like a bad joke &#x2013; ask four different experts, get four different answers which range from</p>
+<p>four to 165 test cases &#x2013; and four consulting bills.</p>
+<br>
+<p>What&#x2019;s the right answer? The answer is that there is no single answer for all</p>
+<p>circumstances, as the most appropriate answer depends on the context. There is a long</p>
+<p>history of disservice to business and industry by testers who claim that &#x201C;adequate&#x201D; equals</p>
+<p>&#x201C;thorough&#x201D;. As we saw in Chapter 1, the question: &#x201C;What is the correct set of test cases?&#x201D;,</p>
+<p>can only be answered in terms of the perceived risk in the situation and the amount of</p>
+<p>effort we are willing to expend to avoid that risk. In other words, the right amount of</p>
+<p>testing depends on the trade-off between the risk and economics. If the risk is</p>
+<p>sufficiently low or the cost of testing is sufficiently high, the minimal set of four test</p>
+<p>cases is adequate. You also may feel that I am playing games by disclosing the context</p>
+<p>after I asked you to solve the problem. You first need to know the context before you can</p>
+<p>solve the triangle problem.</p>
+<br>
+<p>The triangle experiments, where the intuitive approach identified only about one third of</p>
+<p>the test cases, do _not _prove that the intuitive approach doesn&#x2019;t work. The yield of test</p>
+<p>cases from systematic analysis can be just as low if the information, time and skills are</p>
+<p>not available for effective analysis. The experiments do show that test coverage may be</p>
+<p>lower than we realize and we need: important test cases are often missed with the</p>
+<p>intuitive approach.</p>
+<br>
+<p>What test cases do people miss with the triangle problem? In my observation, the most</p>
+<p>overlooked test case is one with a long side and a couple of short flaps, such as an input</p>
+<p>combination of [ 1, 3 and 1 ]. These three lines do not close to form a triangle: to qualify,</p>
+<p>the sum of any two sides must be greater than the third. If the system concludes that [ 1, 3</p>
+<p>and 1 ] is an isosceles triangle instead of rejecting this combination as invalid, the</p>
+<p>overlooked test case would fail. More than half of the participants in the experiments do</p>
+<p>not identify this test case.</p>
+<br>
+<p>The mis-design of test cases is another source of danger. The following example of a misdesigned</p>
+<p>test case is based on an ambiguity about triangles. Dictionaries define a triangle</p>
+<p>as a _body _which is _enclosed _by three straight lines. The word &#x201C;enclosed&#x201D; implies that all</p>
+<p>six ends of the three lines must meet. So this definition addresses whether the triangle</p>
+<p>closes and helps us see the [ 1, 3 and 1 ] scenario which was previously overlooked.</p>
+<p>However, there is an ambiguity in the word &#x201C;body&#x201D;. If a body is allowed to have no area,</p>
+<p>then a test case with an input combination of [ 3, 6 and 3 ] should produce a message</p>
+<p>saying this triangle is isosceles, and inputs of [ 1, 2 and 3 ] produce one saying it is</p>
+<p>scalene.</p>
+<br>
+<p>Many people argue that these test results are ridiculous. In their view, test cases with</p>
+<p>input data values of [ 1, 2 and 3 ] and [ 3, 6 and 3 ] represent flat lines, not triangles, and</p>
+<p>thus the system is working correctly if these input combinations are rejected. These</p>
+<p>people claim that the word &#x201C;body&#x201D; implies a contained area which must always be greater</p>
+<p>than zero. Since testing is a trade-off of risk and effort, validating this requirement (that</p>
+<p>the area must exceed zero) is justified only if the risk associated with the triangle is</p>
+<p>sufficiently high. If the system includes the capability to generate a &#x201C;Not a triangle&#x201D; error</p>
+<p>message in response to invalid inputs, then the corresponding test cases are less likely to</p>
+<p>be overlooked: the presence of the error message prompts us to ask what circumstances</p>
+<p>trigger it.</p>
+<br>
+<p>Another example of an overlooked test case is more esoteric, but shows the lengths we go</p>
+<p>to in test case design if the risk justifies the effort. The software for the NASA space</p>
+<p>shuttle computes the shape of triangles as part of its orbital navigation. (Most image</p>
+<p>processing software works with polygons, of which triangles are the simplest form.) The</p>
+<p>NASA mission is life-critical: if the orbital navigation is wrong the consequences could</p>
+<p>be severe. The triangles computed on the space shuttle are curved&#x2014;they are based on the</p>
+<p>shape of the Earth&#x2019;s surface. Most participants in the triangle experiments assume a flat</p>
+<p>surface without really thinking about it.</p>
+<br>
+<p>On a curved surface like the Earth&#x2019;s, we could have an input combination of [ 1, 3 and 1 ]</p>
+<p>or even [ 1, 300 and 1 ], with the long side curving back on itself as it wraps around the</p>
+<p>world. It helps to visualize the shape of this &#x201C;triangle&#x201D;: it looks like a long narrow strip of</p>
+<p>peel cut from the top of an orange. Starting at the point where the stem connects on top of</p>
+<p>the orange, the boundary of the piece of peel follows a longitudinal line vertically down</p>
+<p>the side of the orange for one unit of length. Then the second side of the triangle proceeds</p>
+<p>horizontally and circles the orange for another ten units. The third side proceeds</p>
+<p>vertically back to the top of the orange, closing and completing the triangle. If the three</p>
+<p>lines are all &#x201C;straight&#x201D; within their geometry (which is called Riemannian geometry), and</p>
+<p>if all six ends of the lines meet, then by definition this [ 1, 3 and 1 ] combination is a</p>
+<p>valid isosceles triangle on the curved surface.</p>
+<br>
+<p>If we allow for the possibility of triangles on a curved surface such as a sphere, then the</p>
+<p>only correct result for any possible set of only three inputs is: &quot;Indeterminate &#x2013; not</p>
+<p>enough data to compute.&quot; We will need additional information which indicates whether</p>
+<p>the six ends meet or not: not every [ 1, 3 and 1 ] combination of three &#x201C;straight&#x201D; lines</p>
+<p>forms a triangle on the curved surface. To determine if the six ends meet, we might also</p>
+<p>need to know the shape of the surface &#x2013; not all curved surfaces are spheres, and the rules</p>
+<p>which determine if a triangle closes on a spherical surface do not hold true for all curved</p>
+<p>surfaces. Now you know why NASA employs lots of PhDs in mathematics.</p>
+<p>GRAPH GOES HERE TO SHOW A GLOBE-ENCIRCLING [ 1, 3, 1 ] TRIANGLE.</p>
+<br>
+<p>If you are not feeling a sense of &#x201C;gotcha&#x201D; by now, you should be. I could have introduced</p>
+<p>the last section by adding the possibility of triangles on curved surfaces to the previously</p>
+<p>stated context, and then asking how the new information affects your test cases. Instead I</p>
+<p>implied that you were derelict if you overlooked the nuances of curved surfaces. Not</p>
+<p>telling you the full context of a problem, and then expecting you to see every contextdependent</p>
+<p>nuance, is unrealistic and unfair. We cannot expect a tester to be omniscient and find all the</p>
+<p>significant test cases regardless of the information she has.</p>
+<br>
+<p>Especially when the mission is life-critical, if the triangles can occur on curved surfaces then the</p>
+<p>project manager is responsible for ensuring the tester has this information. Nevertheless,</p>
+<p>the tester needs to prompt for information by asking the right questions to uncover it.</p>
+<p>Rightly or wrongly, usually she is held accountable for any inadvertent omissions in</p>
+<p>testing (not including deliberate omissions to meet time and resource limitations).</p>
+<br>
+<p>The ineffective testing of the triangle software arises from incomplete analysis,</p>
+<p>unrecognized assumptions and vague requirements. The main lesson from the triangle</p>
+<p>testing experiments is that intuitive testing usually is not enough. In the face of poorly</p>
+<p>defined requirements, though, intuitive testing may be the only approach we&#x2019;re left with.</p>
+<br>
+<p>We need to be able to recognize when intuitive testing is not sufficient to deliver good</p>
+<p>results. Not only do people see only about one third of the test cases in the triangle</p>
+<p>example using intuitive, unstructured techniques, most of these people feel that they had</p>
+<p>uncovered 80% or more of the test cases. In other words, an over-confidence in the</p>
+<p>completeness of the testing accompanies the lack of coverage.</p>
+<br>
+<p>However, mindlessly following the test techniques described in this book, and applying</p>
+<p>them to typical imperfect specifications, may not be any better than intuitive testing. The</p>
+<p>test coverage for the triangle software (and by extension, any software), increases</p>
+<p>significantly with test case design, but only if three conditions are met:</p>
+<ol>
+<li>The testers have a clear, correct, complete and unambiguous feature specification,</li>
+</ol>
+<p>plus access to one or more knowledgeable persons who can authoritatively answer</p>
+<p>questions about the feature.</p>
+<ol start="2">
+<li>The testers are methodically trained to analyze features and derive test cases,</li>
+</ol>
+<p>using the techniques which are explained in this book.</p>
+<ol start="3">
+<li>The testers have sufficient time to do the work. The testers in the triangle</li>
+</ol>
+<p>experiment were given unlimited time, so that having the time available is not</p>
+<p>sufficient by itself to ensure adequate coverage. And in reality, many testers are</p>
+<p>pressured by tight deadlines and resource limits.</p>
+<br>
+<p>When these conditions are met, the test coverage, the count of detected bugs (weighted</p>
+<p>by severity), and the test efficiency (bugs found per hour) often increase dramatically.</p>
+<p>Admittedly, these benefits are not free &#x2013; the test preparation effort also increases. But my</p>
+<p>experience is that the extra effort pays off on most projects.</p>
+<hr>
+<h1 id="reference"><strong>Reference</strong></h1>
+<ul>
+<li><a href="http://www.testingeducation.org/conference/wtst3_collard4.pdf" target="_blank" rel="external">http://www.testingeducation.org/conference/wtst3_collard4.pdf</a></li>
+<li><a href="http://cse.seu.edu.cn/people/pwang/course/1%20%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80.pdf" target="_blank" rel="external">http://cse.seu.edu.cn/people/pwang/course/1 &#x8F6F;&#x4EF6;&#x6D4B;&#x8BD5;&#x57FA;&#x7840;.pdf</a></li>
+</ul>
+
             </div>
 
             
@@ -427,7 +647,7 @@
         <div class="card">
             <div class="card-content">
                 <!-- Duoshuo Comment BEGIN -->
-                <div class="ds-thread" data-thread-key="" data-title="" data-url="http://jkissday.online/404.html"></div>
+                <div class="ds-thread" data-thread-key="weinberg-triangle-problem" data-title="Weinberg Triangle Problem" data-url="http://jkissday.online/weinberg-triangle-problem/"></div>
                 <script type="text/javascript">
                     var duoshuoQuery = {
                         short_name: 'jkissday'

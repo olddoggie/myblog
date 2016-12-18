@@ -7,7 +7,7 @@
 
     
 
-    <title>我爱夏雪天</title>
+    <title>gitlab6.6 简单配置 postfix 发邮件 | 我爱夏雪天</title>
     <meta name="author" content="Jack Wang">
     
     <meta name="description" content="长啸一声会有时!">
@@ -15,7 +15,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="gitlab6.6 简单配置 postfix 发邮件"/>
     <meta property="og:site_name" content="我爱夏雪天"/>
 
     
@@ -285,6 +285,10 @@
         <span class="breadcrumb">当前位置（目录）</span>
         
             
+    
+    
+    <a class="breadcrumb" href="/categories/技术/">技术</a><a class="breadcrumb" href="/categories/技术/linux/">linux</a>
+
 
         
 
@@ -300,34 +304,98 @@
             <div class="article-title">
                 
     
-        <h1>无题</h1>
+        <h1>gitlab6.6 简单配置 postfix 发邮件</h1>
     
 
 
             </div>
             <span class="grey-text">发表于</span>
-            <time class="indigo-link-context" datetime="2016-12-11T10:57:11.000Z"><a href="/404.html">2016-12-11</a></time>
+            <time class="indigo-link-context" datetime="2014-03-04T14:07:56.000Z"><a href="/gitlab6-6-configure-postfix/">2014-03-04</a></time>
 
             <span class="grey-text"> | 字数</span>
-            <span class="indigo-link-context"><a href="/404.html">31</a></span>
+            <span class="indigo-link-context"><a href="/gitlab6-6-configure-postfix/">740</a></span>
             <span class="grey-text"> | 预计阅读时间</span>
-            <span class="indigo-link-context"><a href="/404.html">0分钟</a></span>
+            <span class="indigo-link-context"><a href="/gitlab6-6-configure-postfix/">5分钟</a></span>
             
+    <div class="tags-row">
+        
+            <a href="/tags/gitlab/" class="chip green accent-4">gitlab</a>
+        
+            <a href="/tags/postfix/" class="chip green accent-4">postfix</a>
+        
+            <a href="/tags/sendmail/" class="chip green accent-4">sendmail</a>
+        
+    </div>
+
 
             <div class="toc indigo-link-context hide-on-med-and-down">
-    
+    <ol class="section table-of-contents"><li class="section table-of-contents-item section table-of-contents-level-2"><a class="section table-of-contents-link" href="#use-postfix-to-send-email"><span class="section table-of-contents-text">Use postfix to send email</span></a><ol class="section table-of-contents-child"><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#configure-the-sendmailpostfix"><span class="section table-of-contents-text">Configure the sendmail/postfix</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#map-the-smtp-server-ip-address"><span class="section table-of-contents-text">Map the [SMTP server] [IP address]</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#optional"><span class="section table-of-contents-text">Optional</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#faq"><span class="section table-of-contents-text">FAQ</span></a></li><li class="section table-of-contents-item section table-of-contents-level-3"><a class="section table-of-contents-link" href="#reference"><span class="section table-of-contents-text">Reference</span></a></li></ol></li></ol>
 </div>
 
 
             <div class="entry indigo-link-context">
-                <!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://jkissday.online" homepagename="&#x56DE;&#x5230;&#x6211;&#x7684;&#x4E3B;&#x9875;"></script>
-</body>
-</html>
+                <h2 id="use-postfix-to-send-email"><strong>Use postfix to send email</strong></h2>
+<h3 id="configure-the-sendmailpostfix"><strong>Configure the sendmail/postfix</strong></h3>
+<ul>
+<li>
+<p>sudo yum remove sendmail;sudo yum install postfix</p>
+</li>
+<li>
+<p>vi /etc/postfix/main.cf</p>
+</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="code"><pre><div class="line">myhostname = mail.XXXX.com  (XXXX.com &#x662F;&#x4F60;&#x516C;&#x53F8;&#x7684;&#x57DF;&#x540D;&#xFF0C;&#x6BD4;&#x5982; people@company.com, company.com &#x662F;domain)</div><div class="line">mydomain = XXXX.com &#xFF08;&#x5176;&#x5B9E;domain&#x53EF;&#x4EE5;&#x968F;&#x4FBF;&#x8D77;&#x540D;&#x5B57;&#xFF0C;&#x81EA;&#x5DF1;&#x6307;&#x5B9A;&#x4F60;&#x60F3;&#x8981;&#x7684;domain&#x540D;&#xFF0C;&#x5373;&#x51FA;&#x73B0;&#x5728;@&#x4E4B;&#x540E;&#x7684;&#x90A3;&#x4E00;&#x90E8;&#x5206;</div><div class="line">myorigin = $mydomain</div><div class="line">inet_interfaces = localhost &#xFF08;&#x5982;&#x679C;&#x60F3;&#x8981;&#x76D1;&#x542C;&#x6240;&#x4EE5;&#x7684;ip&#xFF0C;&#x5219;&#x6539;&#x6210;all&#xFF09;</div><div class="line">mydestination = $myhostname, localhost.$mydomain, localhost</div><div class="line">mynetworks = 168.100.189.0/28, 127.0.0.0/8</div><div class="line">relay_domains = $mydestination</div><div class="line">smtp_host_lookup = native&#xFF08;&#xFF09;</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<br>
+<h3 id="map-the-smtp-server-ip-address"><strong>Map the [SMTP server] [IP address]</strong></h3>
+<ul>
+<li>vi /etc/hosts</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="code"><pre><div class="line">192.168.0.232 XXXX.com</div></pre></td></tr></table></figure>
+<ul>
+<li>
+<p>sudo service postfix start</p>
+</li>
+<li>
+<p>echo &#x201C;Test mail from postfix&#x201D; | mail -s &#x201C;Test Postfix&#x201D; xx@<span><a href="http://XXXX.com" target="_blank" rel="external">XXXX.com</a>  --&gt; test ok, logs can be seen under: /var/log/maillog</span></p>
+</li>
+<li>
+<p>make sure there is NO SMTP_settings.rb under folder /home/git/gitlab/config/initializers, and</p>
+</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="code"><pre><div class="line">config.action_mailer.delivery_method = :sendmail</div></pre></td></tr></table></figure>
+<p>in /home/git/gitlab/config/environments/production.rb</p>
+<ul>
+<li>
+<p>modify /home/git/gitlab/config/gilab.yml, make sure the email_from and support_email is using the meaningful words, which will be appeared in the notifications sent out by gitlab server.</p>
+</li>
+<li>
+<p>finally, sudo service gitlab restart&#x2026;</p>
+</li>
+</ul>
+<br>
+<h3 id="optional"><strong>Optional</strong></h3>
+<p>It seems that Gitlab cannot successfully send our email by default email settings, so change it to smtp:</p>
+<ul>
+<li>vi /home/git/gitlab/config/environments/production.rb</li>
+</ul>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><div class="line">config.action_mailer.delivery_method = <span class="symbol">:smtp</span></div></pre></td></tr></table></figure>
+<ul>
+<li>add new file: /home/git/gitlab/config/initializers/smtp_settings.rb</li>
+</ul>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><div class="line"><span class="keyword">if</span> Rails.env.production?</div><div class="line">    Gitlab::Application.config.action_mailer.delivery_method = <span class="symbol">:smtp</span></div><div class="line">    ActionMailer::Base.smtp_settings = {</div><div class="line">    <span class="symbol">address:</span> &#x201C;<span class="number">192.168</span>.<span class="number">0</span>.<span class="number">232</span>&#x201D;,</div><div class="line">    <span class="symbol">port:</span> <span class="number">25</span>,</div><div class="line">    <span class="symbol">user_name:</span> &#x201C;xx&#x201D;,</div><div class="line">    <span class="symbol">password:</span> &#x201C;xx&#x201D;,</div><div class="line">    <span class="symbol">domain:</span> &#x201C;XXXX.com&#x201D;,</div><div class="line">    <span class="symbol">authentication:</span> <span class="symbol">:plain</span>,</div><div class="line">    <span class="symbol">enable_starttls_auto:</span> <span class="literal">true</span></div><div class="line">    }</div><div class="line"><span class="keyword">end</span></div></pre></td></tr></table></figure>
+<br>
+<h3 id="faq"><strong>FAQ</strong></h3>
+<p>postfix &#x65E5;&#x5FD7;&#x4E0D;&#x80FD;&#x751F;&#x6210;, mail.log &#x88AB;&#x5220;&#x9664;&#x7684;&#x95EE;&#x9898;</p>
+<ul>
+<li>/etc/init.d/rsyslog restart</li>
+</ul>
+<br>
+<h3 id="reference"><strong>Reference</strong></h3>
+<p><a href="http://www.postfix.org/STANDARD_CONFIGURATION_README.html" target="_blank">http://www.postfix.org/STANDARD_CONFIGURATION_README.html</a></p>
+<p><a href="http://d.hatena.ne.jp/katsuren/20130616/1371392925" target="_blank">http://d.hatena.ne.jp/katsuren/20130616/1371392925</a></p>
+<p><a href="http://beta.wikiversity.org/wiki/Topic:Git/Setup_gitlab_on_ubuntu" target="_blank">http://beta.wikiversity.org/wiki/Topic:Git/Setup_gitlab_on_ubuntu</a></p>
+
             </div>
 
             
@@ -427,7 +495,7 @@
         <div class="card">
             <div class="card-content">
                 <!-- Duoshuo Comment BEGIN -->
-                <div class="ds-thread" data-thread-key="" data-title="" data-url="http://jkissday.online/404.html"></div>
+                <div class="ds-thread" data-thread-key="gitlab6-6-configure-postfix" data-title="gitlab6.6 简单配置 postfix 发邮件" data-url="http://jkissday.online/gitlab6-6-configure-postfix/"></div>
                 <script type="text/javascript">
                     var duoshuoQuery = {
                         short_name: 'jkissday'

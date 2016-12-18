@@ -7,7 +7,7 @@
 
     
 
-    <title>我爱夏雪天</title>
+    <title>说好的 xargs -i 呢 | 我爱夏雪天</title>
     <meta name="author" content="Jack Wang">
     
     <meta name="description" content="长啸一声会有时!">
@@ -15,7 +15,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="说好的 xargs -i 呢"/>
     <meta property="og:site_name" content="我爱夏雪天"/>
 
     
@@ -285,6 +285,10 @@
         <span class="breadcrumb">当前位置（目录）</span>
         
             
+    
+    
+    <a class="breadcrumb" href="/categories/技术/">技术</a><a class="breadcrumb" href="/categories/技术/linux/">linux</a>
+
 
         
 
@@ -300,19 +304,27 @@
             <div class="article-title">
                 
     
-        <h1>无题</h1>
+        <h1>说好的 xargs -i 呢</h1>
     
 
 
             </div>
             <span class="grey-text">发表于</span>
-            <time class="indigo-link-context" datetime="2016-12-11T10:57:11.000Z"><a href="/404.html">2016-12-11</a></time>
+            <time class="indigo-link-context" datetime="2013-12-07T14:25:00.000Z"><a href="/xargs-i/">2013-12-07</a></time>
 
             <span class="grey-text"> | 字数</span>
-            <span class="indigo-link-context"><a href="/404.html">31</a></span>
+            <span class="indigo-link-context"><a href="/xargs-i/">1,129</a></span>
             <span class="grey-text"> | 预计阅读时间</span>
-            <span class="indigo-link-context"><a href="/404.html">0分钟</a></span>
+            <span class="indigo-link-context"><a href="/xargs-i/">7分钟</a></span>
             
+    <div class="tags-row">
+        
+            <a href="/tags/shell/" class="chip green accent-4">shell</a>
+        
+            <a href="/tags/xargs/" class="chip green accent-4">xargs</a>
+        
+    </div>
+
 
             <div class="toc indigo-link-context hide-on-med-and-down">
     
@@ -320,14 +332,24 @@
 
 
             <div class="entry indigo-link-context">
-                <!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://jkissday.online" homepagename="&#x56DE;&#x5230;&#x6211;&#x7684;&#x4E3B;&#x9875;"></script>
-</body>
-</html>
+                <p>&#x5173;&#x4E8E;linux&#x7684;&#x5B66;&#x4E60;&#xFF0C;&#x6700;&#x597D;&#x8FD8;&#x662F;<a href="http://linux.vbird.org/linux_basic/0320bash.php" target="_blank">&#x9E1F;&#x54E5;&#x7684;&#x7F51;&#x7AD9;</a>&#x3002;
+<br></p>
+<p>xargs &#x662F;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;linux&#x547D;&#x4EE4;&#x8F93;&#x51FA;&#x6570;&#x636E;&#x7684;&#x642C;&#x8FD0;&#x5DE5;&#xFF0C;&#x4ED6;&#x5F97;&#x5230;&#x4E0A;&#x4E00;&#x6761;&#x547D;&#x4EE4;&#x7BA1;&#x9053;&#x4F20;&#x9012;&#x5230;&#x4ED6;&#x624B;&#x91CC;&#x7684;&#x7ED3;&#x679C;(stdout)&#xFF0C;&#x8FDB;&#x884C;&#x52A0;&#x5DE5;&#x5904;&#x7406;&#xFF0C;&#x6216;&#x8005;&#x7EE7;&#x7EED;&#x4F20;&#x9012;&#x5230;&#x4ED6;&#x7684;&#x4E0B;&#x4E00;&#x4E2A;&#x7BA1;&#x9053;&#x4E2D;&#x53BB;&#x3002;</p>
+<br>
+<p>&#x7B80;&#x5355;&#x7684;&#x8BB0;&#x5F55;&#x4E00;&#x4E0B;&#x5728;windows cygwin &#x548C; unix linux &#x73AF;&#x5883;&#x4E0B;&#x9762;&#x7684;&#x5DEE;&#x5F02;&#xFF0C;&#x5185;&#x6838;&#x7248;&#x672C;&#x7684;&#x4E0D;&#x4E00;&#x6837;&#x5BFC;&#x81F4;&#x4E86;&#x6211;&#x5728;cygwin&#x91CC;&#x7528;&#x7684;&#x5F88;&#x597D;&#x7684;<code>xargs -i {}</code>&#x547D;&#x4EE4;&#x5728; mac&#x7684;shell&#x91CC;&#x6267;&#x884C;&#x4E0D;&#x6210;&#x529F;&#xFF0C;&#x8BF4;&#x662F;&#x6839;&#x672C;&#x6CA1;&#x6709;-i &#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#x3002;</p>
+<a id="more"></a>
+<br>
+<p>&#x5728;cygwin&#x4E0B;&#xFF0C; &#x5047;&#x8BBE;&#x4F60;&#x7684;&#x76EE;&#x5F55;&#x4E0B;&#x6709;: 1.txt 2.txt, &#x90A3;&#x4E48;&#x5F88;&#x65B9;&#x4FBF;&#x7684;&#x53EF;&#x4EE5;&#x7528;&#x7C7B;&#x4F3C;&#x7684;&#x6307;&#x4EE4;&#xFF1A;<code>ls *.txt | xargs rm</code> &#x6765;&#x8FDB;&#x884C;&#x5220;&#x9664;&#xFF08;&#x5F53;&#x7136;&#x8FD9;&#x91CC;&#x4F60;&#x5B8C;&#x5168;&#x4E0D;&#x8981;&#x7528;&#x5230;xargs&#xFF0C;&#x76F4;&#x63A5;<code>rm</code>&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF0C;&#x90A3;&#x6211;&#x4E0D;&#x662F;&#x518D;&#x8BF4;&#x5047;&#x5982;&#x4F60;&#x8981;&#x7528;&#x561B; =_=!!&#xFF09;&#xFF1B; &#x90A3;&#x4E48;&#x5982;&#x679C;&#x4F60;&#x662F;&#x8981;&#x505A;&#x5230;&#x628A;&#x8FD9;&#x4E24;&#x4E2A;txt&#x7ED3;&#x5C3E;&#x7684;&#x6587;&#x4EF6;&#x505A;&#x4E00;&#x4E2A;&#x62F7;&#x8D1D;&#x5462;&#xFF0C;&#x79FB;&#x52A8;&#x5230;&#x4E00;&#x4E2A;&#x53EB;test&#x7684;&#x6587;&#x4EF6;&#x5939;&#x5185;&#x5462;&#xFF0C;&#x90A3;&#x4E48;&#x66F4;&#x4E0A;&#x9762;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x662F;&#xFF0C;&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x4F60; <code>ls *.txt</code> &#x7684;&#x7ED3;&#x679C;&#x662F;xargs&#x540E;&#x9762;&#x547D;&#x4EE4;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x4E2D;&#x95F4;&#x53C2;&#x6570;&#xFF0C;&#x800C;&#x4E0D;&#x518D;&#x662F;&#x4E00;&#x4E2A;&#x76F4;&#x63A5;&#x7684;&#x64CD;&#x4F5C;&#x5BF9;&#x8C61;&#x4E86;&#xFF0C;&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x4F60;&#x5F53;&#x7136;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x53CD;&#x5F15;&#x53F7;&#xFF08;&#x5C31;&#x662F;&#x90A3;&#x4E2A;&#x5356;&#x840C;&#x7684;~&#x952E;&#xFF0C;&#x5F53;&#x7136;&#x662F;&#x4E0D;&#x7528;&#x6309;shift&#x7684;&#xFF09;&#x6765;&#x64CD;&#x4F5C;&#xFF0C;&#x90A3;&#x4E48;&#x5982;&#x679C;&#x4F7F;&#x7528;xargs&#x7528;&#x7684;&#x6F02;&#x4EAE;&#x4E00;&#x4E9B;&#xFF0C;&#x5C31;&#x8981;&#x7528;&#x5230; <code>-i</code> &#x53C2;&#x6570;&#x4E86;&#xFF1A;<code>ls *.txt | xargs -i mv {} ./test .</code>&#x8FD9;&#x6837;&#x7684;&#x7528;&#x6CD5;&#x5728;cygwin &#x7684;&#x6A21;&#x62DF;unix &#x73AF;&#x5883;&#x4E0B;&#x5C61;&#x8BD5;&#x4E0D;&#x723D;&#xFF0C;&#x4F46;&#x662F;&#x5F88;&#x5947;&#x602A;&#x7684;&#x662F;&#xFF0C;&#x5728;linux&#x548C;mac&#x673A;&#x5668;&#x4E0B;&#xFF0C;&#x6CA1;&#x6709;-i&#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x771F;&#x662F;&#x5927;&#x6C34;&#x51B2;&#x4E86;&#x9F99;&#x738B;&#x5E99;&#x3002;&#x3002;</p>
+<br>
+<p>&#x600E;&#x4E48;&#x529E;&#x5462;&#xFF0C;&#x53EA;&#x597D;&#x518D;&#x56DE;&#x5934;&#x53BB;&#x67E5;&#x67E5;xargs&#x7684;&#x53C2;&#x6570;&#x5217;&#x8868;&#x5427;&#xFF0C;&#x53D1;&#x73B0;&#x7ADF;&#x7136;&#x4ED6;&#x5988;&#x7684;&#x6728;&#x6709;&#x7C7B;&#x4F3C;-i&#x4F5C;&#x7528;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x5C3C;&#x739B;&#x8FD9;&#x4E0D;&#x662F;&#x5751;&#x7239;&#x561B;&#xFF01;&#x8C37;&#x6B4C;&#x4E5F;&#x67E5;&#x4E0D;&#x5230;&#x4EC0;&#x4E48;&#x5B9E;&#x8D28;&#x6027;&#x7684;&#x5173;&#x4E8E; -i &#x53C2;&#x6570;&#x5BF9;&#x5E94;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x53EF;&#x89C1;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x662F;&#x591A;&#x4E48;&#x7684;&#x6CA1;&#x6709;&#x610F;&#x4E49;T^T&#x2026;</p>
+<br>
+<p>&#x4E0D;&#x94BB;&#x725B;&#x89D2;&#x5C16;&#x4E86;&#xFF0C;&#x6700;&#x540E;&#x51B3;&#x5B9A;&#x76F4;&#x63A5;&#x7528;xargs &#x5185;&#x63A5;<code>sh -c &#x2018;&#x2019;</code>&#x6765;&#x89E3;&#x5F00;&#x95EE;&#x9898;(&#x4E2A;&#x4EBA;&#x611F;&#x89C9;&#xFF0C;&#x8FD9;&#x6837;&#x505A;&#x4E0D;&#x5C31;&#x548C;&#x53CD;&#x5F15;&#x53F7;&#x4E00;&#x4E2A;&#x5C3F;&#x6027;&#x561B;&#xFF0C;&#x4E0D;&#x591F;&#x98CE;&#x9A9A;=.=)&#xFF0C;&#x6700;&#x7EC8;linux/mac&#x4E0B;&#x7684;&#x547D;&#x4EE4;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># &#x5C06;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x6587;&#x4EF6;&#x79FB;&#x52A8;&#x5230;./test&#x5B50;&#x76EE;&#x5F55;</div><div class="line">ls *.txt | xargs -n1 sh -c &apos;mv $0 ./test&apos;</div></pre></td></tr></table></figure>
+<br>
+<p>&#x89E3;&#x91CA;&#x4E0B;&#xFF0C;&#x5728;&#x67E5;&#x53C2;&#x6570;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x77E5;&#x9053;&#x4E86;&#x4E00;&#x4E9B;&#x672C;&#x6765;&#x4E0D;&#x6653;&#x5F97;&#x7684;&#x7528;&#x9014;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A; <code>xargs -t</code> &#x53EF;&#x4EE5;&#x8F93;&#x51FA;&#x547D;&#x4EE4;&#x5904;&#x7406;&#x7684;&#x547D;&#x4EE4;&#x672C;&#x8EAB;&#xFF0C;&#x65B9;&#x4FBF;&#x77EB;&#x6B63;&#x3002; &#x518D;&#x6BD4;&#x5982;&#x540E;&#x6765;&#x4F7F;&#x7528;&#x7684;&#xFF0C;<code>-n</code> &#x53C2;&#x6570;&#xFF0C; &#x56E0;&#x4E3A;&#x5982;&#x679C;&#x4F60;&#x6709; 1.txt,2.txt, &#x90A3;&#x4E48;&#x4F60;<code>mv</code>&#x7684;&#x65F6;&#x5019;&#x5230;&#x5E95;&#x662F;&#x7528;<code>$0</code>&#x5462;&#xFF0C;&#x8FD8;&#x662F;<code>$1</code>&#x5462;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x6839;&#x672C;&#x4E0D;&#x77E5;&#x9053;&#x6709;&#x51E0;&#x4E2A;txt&#xFF0C;&#x90A3;&#x4E0D;&#x5C31;&#x7FD4;&#x4E86;&#x561B;&#x3002;&#x3002;&#x6240;&#x4EE5;&#x4E00;&#x822C;&#x4F1A;&#x8981;&#x7528;&#x5230; <code>-n1</code>, &#x8868;&#x793A;&#x4E00;&#x884C;&#x663E;&#x793A;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x5757;&#xFF0C;&#x7136;&#x540E;&#x4F60;&#x53EA;&#x8981;&#x7528;<code>$0</code>&#x5C31;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x6240;&#x6709;&#x7684;&#x6570;&#x636E;&#x4E86;&#x3002; &#x6BD4;&#x5982;&#x4F60;&#x6709;5&#x4E2A;txt, &#x90A3;&#x4E48;&#x4F60;&#x7528;&#x4E86; <code>xargs -n1</code>&#x7136;&#x540E;<code>$0</code>&#x5C31;&#x662F;&#x4E00;&#x884C;&#x4E00;&#x4E2A;&#x7684; 1.txt 2.txt &#x2026; 5.txt&#xFF0C; &#x5F53;&#x7136;&#x4F60;&#x7684;&#x64CD;&#x4F5C;&#x4E5F;&#x662F;&#x9488;&#x5BF9;&#x8FD9;5&#x4E2A;&#x6587;&#x4EF6;&#x6765;&#x505A;&#x4E86;&#x3002; &#x5982;&#x679C;&#x4F60;&#x7528;&#x7684;&#x662F;<code>-n2</code>&#x7684;&#x8BDD;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E00;&#x6B21;&#x6570;&#x636E;&#x7684;&#x5206;&#x9694;&#x5C31;&#x662F;&#x6BCF;&#x884C;&#x663E;&#x793A;2&#x4E2A;&#xFF0C; &#x5373;:&#x7B2C;&#x4E00;&#x884C; 1.txt 2.txt , &#x7B2C;&#x4E8C;&#x884C; 3.txt 4.txt, &#x7B2C;&#x4E09;&#x884C; 5.txt, &#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#xFF0C;&#x4F60;&#x7684;<code>$0</code>&#x5C31;&#x662F;&#x7B2C;&#x4E00;&#x5217;&#x7684; 1.txt 3.txt 5.txt, &#x800C;<code>$1</code>&#x5C31;&#x662F; 2.txt 4.txt&#xFF0C; &#x800C;<code>$3</code>&#xFF0C;&#x5475;&#x5475;&#xFF0C;&#x662F;&#x7A7A;&#x7684;&#x3002;&#x3002; &#x5176;&#x5B9E;&#x4ED4;&#x7EC6;&#x770B;xargs &#x7684;help &#x547D;&#x4EE4;&#xFF0C; &#x4ED6;&#x663E;&#x793A;<code>-L</code>&#x548C;<code>-n</code>&#x597D;&#x50CF;&#x662F;&#x5DEE;&#x4E0D;&#x591A;&#x7684;&#x610F;&#x601D;&#xFF0C;&#x8FD8;&#x6709;<code>-R</code>,<code>-I</code>&#x4E4B;&#x7C7B;&#x7684;&#xFF0C;&#x6211;&#x6CA1;&#x6709;&#x53BB;&#x6DF1;&#x7A76;&#xFF0C;&#x5E94;&#x8BE5;&#x4E5F;&#x90FD;&#x662F;&#x5199;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x7684;&#x53C2;&#x6570;&#x5427;&#x3002;</p>
+<br>
+<p>&#x597D;&#x4E86;&#xFF0C;&#x626F;&#x4E86;&#x8FD9;&#x4E48;&#x591A;&#xFF0C;&#x4E00;&#x7BC7;&#x5F88;&#x6C34;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x7B97;&#x662F;&#x81EA;&#x5DF1;&#x65B0;&#x535A;&#x5BA2;&#x7684;&#x6280;&#x672F;&#x7C7B;&#x578B;&#x7684;&#x5904;&#x5973;&#x7BC7;&#xFF0C;&#x771F;&#x662F;&#x9171;&#x6CB9;&#x7684;&#x5389;&#x5BB3;&#x3002;&#x3002;O(&#x2229;_&#x2229;)O~ &#x95ED;&#x5173;&#x4E86;&#x4E00;&#x5929;&#xFF0C;&#x660E;&#x5929;&#x5E0C;&#x671B;&#x96FE;&#x973E;&#x6563;&#x53BB;&#xFF0C;&#x53BB;&#x6D66;&#x56FE;&#x8D70;&#x8D70;&#x3002;</p>
+
             </div>
 
             
@@ -427,7 +449,7 @@
         <div class="card">
             <div class="card-content">
                 <!-- Duoshuo Comment BEGIN -->
-                <div class="ds-thread" data-thread-key="" data-title="" data-url="http://jkissday.online/404.html"></div>
+                <div class="ds-thread" data-thread-key="xargs-i" data-title="说好的 xargs -i 呢" data-url="http://jkissday.online/xargs-i/"></div>
                 <script type="text/javascript">
                     var duoshuoQuery = {
                         short_name: 'jkissday'
