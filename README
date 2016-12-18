@@ -1,11 +1,14 @@
 jkissday.online
 
-npm install -g hexo
+1. INSTALLATUON
+git clone git@github.com:olddoggie/myblog.git
+npm install hexo --no-optional
 
 hexo clean
 hexo g
 hexo d
 
+2. BLOG SITE 
 cd $SITE_DIR
 git reset --hard origin/SITE
 git clean -f
