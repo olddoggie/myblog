@@ -7,14 +7,14 @@
     </url>
     
     <url>
-        <loc>http://jkissday.online/404.html</loc>
-        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
+        <loc>http://jkissday.online/about/aboutMe.html</loc>
+        <lastmod>2016-12-18T12:53:07.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://jkissday.online/about/aboutMe.html</loc>
+        <loc>http://jkissday.online/404.html</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
