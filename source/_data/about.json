@@ -2,7 +2,7 @@
     "avatar": "http://7xr6h2.com1.z0.glb.clouddn.com/avataryin.jpg",
     "name": "Jack.Wang",
 	"tag": "单线程 | 程序猿",
-    "desc": "巨蟹座，捧哏一枚，间歇性癫痫晚期，偶尔空发些慷慨激昂。",
+    "desc": "巨蟹座捧哏一枚，间歇性癫痫晚期，偶尔空发些慷慨激昂。",
 
 	"skills": {
 		"Java": 6,
@@ -31,22 +31,22 @@
 
     "projects": [{
 	  "name": "外资银行后台On Call系统 测试经验",
-	  "image": "http://7xr6h2.com1.z0.glb.clouddn.com/1fb.png",
-	  "tags": ["On Call系统", "银行业务","金融领域"],
+	  "image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
+	  "tags": ["On Call System", "银行业务"],
 	  "description": "2年外资银行On Call Center系统测试经验",
 	  "link_text": "网站链接",
 	  "link": "https://www.1fbusa.com/fscm/"
 	},{
 	  "name": "大型互联网金融理财平台 测试经验",
-	  "image": "http://7xr6h2.com1.z0.glb.clouddn.com/yeb.png",
+	  "image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
 	  "tags": ["互联网金融", "理财业务","金融领域"],
-	  "description": "2年大型互联网金融理财平台测试经验",
+	  "description": "3年大型互联网金融理财平台测试经验",
 	  "link_text": "网站链接",
 	  "link": "https://yebprod.alipay.com/yeb/index.htm"
 	},{
 	  "name": "SCM Automatic Scripts",
 	  "image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
-	  "tags": ["2012年", "SCM 自动化脚本","效能提升"],
+	  "tags": ["2012年", "自动化脚本","效能提升"],
 	  "description": "基于Shell Script, 结合CVS/SVN/MVN/ANT/Git等SCM工作流程中相关的工具,自动化SCM日常工作中需要的操作,使得SCM操作效率大大提升;并通过crontab自动化运行定时任务,完成备份监控,预警提醒等系列辅助工作",
 	  "link_text": "Github地址",
 	  "link": "https://github.com/olddoggie"
@@ -75,47 +75,26 @@
 
 	"hobbies": {
 	  "足球": 10,
-	  "超级碗": 10,
-	  "田径": 5,
-	  "拳击": 7,
-	  "滑雪": 6,
-	  "洗澡": 10,
-	  "话剧": 7,
-	  "爵士": 6,
-	  "摩天轮": 8,
-	  "桌游": 1,
-	  "哈士奇": 1,
-	  "萨摩": 9,
+	  "戏剧": 9,
+	  "二次元": 8,
 
 	  "invisible-split-line-1": -1,
 
 	  "皮雷": 10,
-	  "特维斯": 10,
-	  "范佩西": 1,
-	  "汤姆布雷迪": 8,
-	  "大表姐": 10,
-	  "水果姐": 6,
-	  "马特达蒙": 8,
-	  "阿部宽": 8,
-	  "广末凉子": 10,
-	  "堀北真希": 7,
-	  "何冰": 9,
-	  "吴奇隆": 1,
+	  "大表姐": 9,
+	  "广末凉子": 8,
 
 	  "invisible-split-line-2": -2,
 
-	  "米兰昆德拉": 9,
 	  "卡夫卡": 10,
-	  "白鹿原": 10,
-	  "活着": 9,
-	  "古都": 8,
-	  "恶意": 8,
-	  "闻香识女人": 10,
-	  "真探": 8,
+	  "陈忠实": 9,
+	  "川端康成": 8,
+
+	  "invisible-split-line-3": -3,
+
 	  "入殓师": 10,
-	  "跳跃的大搜查线": 9,
-	  "致青春": 1,
-	  "一代宗师": 8
+	  "爆裂鼓手": 9,
+	  "乌云背后的幸福线": 8
 
 	},
 
