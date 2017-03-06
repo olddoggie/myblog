@@ -79,6 +79,13 @@
     </url>
 
     <url>
+        <loc>http://jkissday.online/tags/%E7%A6%BB%E8%81%8C/</loc>
+        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jkissday.online/tags/%E4%BA%91%E6%B5%8B%E8%AF%95/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -87,13 +94,6 @@
 
     <url>
         <loc>http://jkissday.online/tags/sauce-labs/</loc>
-        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jkissday.online/tags/%E7%A6%BB%E8%81%8C/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -219,6 +219,34 @@
     </url>
 
     <url>
+        <loc>http://jkissday.online/tags/%E6%96%87%E8%89%BA%E5%A4%8D%E5%85%B4/</loc>
+        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jkissday.online/tags/%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8/</loc>
+        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jkissday.online/tags/%E7%BD%97%E9%A9%AC/</loc>
+        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jkissday.online/tags/%E4%BB%93%E6%9C%A8%E9%BA%BB%E8%A1%A3/</loc>
+        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jkissday.online/tags/%E9%9D%92%E5%B2%9B/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -227,13 +255,6 @@
 
     <url>
         <loc>http://jkissday.online/tags/%E5%9B%A2%E5%BB%BA/</loc>
-        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jkissday.online/tags/%E4%BB%93%E6%9C%A8%E9%BA%BB%E8%A1%A3/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -262,27 +283,6 @@
 
     <url>
         <loc>http://jkissday.online/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jkissday.online/tags/%E6%96%87%E8%89%BA%E5%A4%8D%E5%85%B4/</loc>
-        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jkissday.online/tags/%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8/</loc>
-        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jkissday.online/tags/%E7%BD%97%E9%A9%AC/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
