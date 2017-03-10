@@ -4,9 +4,9 @@
   <subtitle>我爱夏雪天</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://jkissday.online/"/>
-  <updated>2016-12-11T10:57:11.000Z</updated>
-  <id>http://jkissday.online/</id>
+  <link href="http://jkup2.us/"/>
+  <updated>2017-03-10T17:04:19.000Z</updated>
+  <id>http://jkup2.us/</id>
   
   <author>
     <name>Jack Wang</name>
@@ -16,9 +16,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://jkup2.us/please-be-back/"/>
+    <id>http://jkup2.us/please-be-back/</id>
+    <published>2017-03-10T17:04:19.000Z</published>
+    <updated>2017-03-10T17:04:19.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;h2 id=&quot;&quot;&gt;{}&lt;/h2&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;&quot;&gt;{}&lt;/h2&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>从佛罗伦萨到罗马，边走边聊文艺复兴</title>
-    <link href="http://jkissday.online/repost-Florence-Roma/"/>
-    <id>http://jkissday.online/repost-Florence-Roma/</id>
+    <link href="http://jkup2.us/repost-Florence-Roma/"/>
+    <id>http://jkup2.us/repost-Florence-Roma/</id>
     <published>2016-04-16T05:15:00.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -231,21 +253,21 @@
     
     </summary>
     
-      <category term="旅行" scheme="http://jkissday.online/categories/%E6%97%85%E8%A1%8C/"/>
+      <category term="旅行" scheme="http://jkup2.us/categories/%E6%97%85%E8%A1%8C/"/>
     
     
-      <category term="文艺复兴" scheme="http://jkissday.online/tags/%E6%96%87%E8%89%BA%E5%A4%8D%E5%85%B4/"/>
+      <category term="文艺复兴" scheme="http://jkup2.us/tags/%E6%96%87%E8%89%BA%E5%A4%8D%E5%85%B4/"/>
     
-      <category term="佛罗伦萨" scheme="http://jkissday.online/tags/%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8/"/>
+      <category term="佛罗伦萨" scheme="http://jkup2.us/tags/%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8/"/>
     
-      <category term="罗马" scheme="http://jkissday.online/tags/%E7%BD%97%E9%A9%AC/"/>
+      <category term="罗马" scheme="http://jkup2.us/tags/%E7%BD%97%E9%A9%AC/"/>
     
   </entry>
   
   <entry>
     <title>关于markdown</title>
-    <link href="http://jkissday.online/about-markdown/"/>
-    <id>http://jkissday.online/about-markdown/</id>
+    <link href="http://jkup2.us/about-markdown/"/>
+    <id>http://jkup2.us/about-markdown/</id>
     <published>2016-04-15T01:30:00.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -373,19 +395,19 @@
     
     </summary>
     
-      <category term="技术" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="工具" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="markdown" scheme="http://jkissday.online/tags/markdown/"/>
+      <category term="markdown" scheme="http://jkup2.us/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>四月天</title>
-    <link href="http://jkissday.online/April-day/"/>
-    <id>http://jkissday.online/April-day/</id>
+    <link href="http://jkup2.us/April-day/"/>
+    <id>http://jkup2.us/April-day/</id>
     <published>2016-04-09T01:26:00.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -410,19 +432,19 @@
     
     </summary>
     
-      <category term="生活" scheme="http://jkissday.online/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://jkup2.us/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="家人" scheme="http://jkissday.online/tags/%E5%AE%B6%E4%BA%BA/"/>
+      <category term="家人" scheme="http://jkup2.us/tags/%E5%AE%B6%E4%BA%BA/"/>
     
-      <category term="外婆" scheme="http://jkissday.online/tags/%E5%A4%96%E5%A9%86/"/>
+      <category term="外婆" scheme="http://jkup2.us/tags/%E5%A4%96%E5%A9%86/"/>
     
   </entry>
   
   <entry>
     <title>亚冠之夜和日本街头的歌手</title>
-    <link href="http://jkissday.online/japanese-street-singer/"/>
-    <id>http://jkissday.online/japanese-street-singer/</id>
+    <link href="http://jkup2.us/japanese-street-singer/"/>
+    <id>http://jkup2.us/japanese-street-singer/</id>
     <published>2016-03-15T15:11:11.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -466,21 +488,21 @@
     
     </summary>
     
-      <category term="生活" scheme="http://jkissday.online/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://jkup2.us/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="随笔" scheme="http://jkissday.online/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://jkup2.us/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="音乐" scheme="http://jkissday.online/tags/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="http://jkup2.us/tags/%E9%9F%B3%E4%B9%90/"/>
     
-      <category term="足球" scheme="http://jkissday.online/tags/%E8%B6%B3%E7%90%83/"/>
+      <category term="足球" scheme="http://jkup2.us/tags/%E8%B6%B3%E7%90%83/"/>
     
   </entry>
   
   <entry>
     <title>2015年年终总结</title>
-    <link href="http://jkissday.online/2015-year-summary-article/"/>
-    <id>http://jkissday.online/2015-year-summary-article/</id>
+    <link href="http://jkup2.us/2015-year-summary-article/"/>
+    <id>http://jkup2.us/2015-year-summary-article/</id>
     <published>2016-02-06T16:50:00.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -534,17 +556,17 @@
     
     </summary>
     
-      <category term="生活" scheme="http://jkissday.online/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://jkup2.us/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="年终总结" scheme="http://jkissday.online/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+      <category term="年终总结" scheme="http://jkup2.us/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>DNS 被屏</title>
-    <link href="http://jkissday.online/dns-blocked/"/>
-    <id>http://jkissday.online/dns-blocked/</id>
+    <link href="http://jkup2.us/dns-blocked/"/>
+    <id>http://jkup2.us/dns-blocked/</id>
     <published>2015-12-08T12:08:48.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -567,21 +589,21 @@
     
     </summary>
     
-      <category term="技术" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="web" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/web/"/>
+      <category term="web" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/web/"/>
     
     
-      <category term="dns" scheme="http://jkissday.online/tags/dns/"/>
+      <category term="dns" scheme="http://jkup2.us/tags/dns/"/>
     
-      <category term="域名国内无法访问" scheme="http://jkissday.online/tags/%E5%9F%9F%E5%90%8D%E5%9B%BD%E5%86%85%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/"/>
+      <category term="域名国内无法访问" scheme="http://jkup2.us/tags/%E5%9F%9F%E5%90%8D%E5%9B%BD%E5%86%85%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/"/>
     
   </entry>
   
   <entry>
     <title>崂山轿夫</title>
-    <link href="http://jkissday.online/travel-qingdao/"/>
-    <id>http://jkissday.online/travel-qingdao/</id>
+    <link href="http://jkup2.us/travel-qingdao/"/>
+    <id>http://jkup2.us/travel-qingdao/</id>
     <published>2015-08-03T17:02:00.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -604,19 +626,19 @@
     
     </summary>
     
-      <category term="旅行" scheme="http://jkissday.online/categories/%E6%97%85%E8%A1%8C/"/>
+      <category term="旅行" scheme="http://jkup2.us/categories/%E6%97%85%E8%A1%8C/"/>
     
     
-      <category term="青岛" scheme="http://jkissday.online/tags/%E9%9D%92%E5%B2%9B/"/>
+      <category term="青岛" scheme="http://jkup2.us/tags/%E9%9D%92%E5%B2%9B/"/>
     
-      <category term="团建" scheme="http://jkissday.online/tags/%E5%9B%A2%E5%BB%BA/"/>
+      <category term="团建" scheme="http://jkup2.us/tags/%E5%9B%A2%E5%BB%BA/"/>
     
   </entry>
   
   <entry>
     <title>520</title>
-    <link href="http://jkissday.online/520/"/>
-    <id>http://jkissday.online/520/</id>
+    <link href="http://jkup2.us/520/"/>
+    <id>http://jkup2.us/520/</id>
     <published>2015-05-20T13:33:45.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -634,19 +656,19 @@
     
     </summary>
     
-      <category term="生活" scheme="http://jkissday.online/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://jkup2.us/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="家人" scheme="http://jkissday.online/tags/%E5%AE%B6%E4%BA%BA/"/>
+      <category term="家人" scheme="http://jkup2.us/tags/%E5%AE%B6%E4%BA%BA/"/>
     
-      <category term="外婆" scheme="http://jkissday.online/tags/%E5%A4%96%E5%A9%86/"/>
+      <category term="外婆" scheme="http://jkup2.us/tags/%E5%A4%96%E5%A9%86/"/>
     
   </entry>
   
   <entry>
     <title>mysql 日志爆棚</title>
-    <link href="http://jkissday.online/mysql-logs/"/>
-    <id>http://jkissday.online/mysql-logs/</id>
+    <link href="http://jkup2.us/mysql-logs/"/>
+    <id>http://jkup2.us/mysql-logs/</id>
     <published>2015-05-14T01:16:27.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -737,21 +759,21 @@
     
     </summary>
     
-      <category term="技术" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="数据库" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
-      <category term="mysql" scheme="http://jkissday.online/tags/mysql/"/>
+      <category term="mysql" scheme="http://jkup2.us/tags/mysql/"/>
     
-      <category term="mysql-bin" scheme="http://jkissday.online/tags/mysql-bin/"/>
+      <category term="mysql-bin" scheme="http://jkup2.us/tags/mysql-bin/"/>
     
   </entry>
   
   <entry>
     <title>回到现实</title>
-    <link href="http://jkissday.online/after-travel/"/>
-    <id>http://jkissday.online/after-travel/</id>
+    <link href="http://jkup2.us/after-travel/"/>
+    <id>http://jkup2.us/after-travel/</id>
     <published>2015-03-08T15:21:58.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -770,19 +792,19 @@
     
     </summary>
     
-      <category term="生活" scheme="http://jkissday.online/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://jkup2.us/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="随笔" scheme="http://jkissday.online/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://jkup2.us/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="旅行归来" scheme="http://jkissday.online/tags/%E6%97%85%E8%A1%8C%E5%BD%92%E6%9D%A5/"/>
+      <category term="旅行归来" scheme="http://jkup2.us/tags/%E6%97%85%E8%A1%8C%E5%BD%92%E6%9D%A5/"/>
     
   </entry>
   
   <entry>
     <title>2014年年终总结</title>
-    <link href="http://jkissday.online/2014-year-summary-article/"/>
-    <id>http://jkissday.online/2014-year-summary-article/</id>
+    <link href="http://jkup2.us/2014-year-summary-article/"/>
+    <id>http://jkup2.us/2014-year-summary-article/</id>
     <published>2015-02-13T17:05:00.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -826,17 +848,17 @@
     
     </summary>
     
-      <category term="生活" scheme="http://jkissday.online/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://jkup2.us/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="年终总结" scheme="http://jkissday.online/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+      <category term="年终总结" scheme="http://jkup2.us/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>十年枪迷</title>
-    <link href="http://jkissday.online/decade-gooner/"/>
-    <id>http://jkissday.online/decade-gooner/</id>
+    <link href="http://jkup2.us/decade-gooner/"/>
+    <id>http://jkup2.us/decade-gooner/</id>
     <published>2014-10-16T14:55:10.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -868,51 +890,19 @@
     
     </summary>
     
-      <category term="体育" scheme="http://jkissday.online/categories/%E4%BD%93%E8%82%B2/"/>
+      <category term="体育" scheme="http://jkup2.us/categories/%E4%BD%93%E8%82%B2/"/>
     
     
-      <category term="足球" scheme="http://jkissday.online/tags/%E8%B6%B3%E7%90%83/"/>
+      <category term="足球" scheme="http://jkup2.us/tags/%E8%B6%B3%E7%90%83/"/>
     
-      <category term="阿森纳" scheme="http://jkissday.online/tags/%E9%98%BF%E6%A3%AE%E7%BA%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>回头是岸</title>
-    <link href="http://jkissday.online/please-be-back/"/>
-    <id>http://jkissday.online/please-be-back/</id>
-    <published>2014-10-03T06:13:24.000Z</published>
-    <updated>2016-12-11T10:57:11.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#x771F;&amp;#x5230;&amp;#x4E86;&amp;#x8FD9;&amp;#x4E00;&amp;#x523B;&amp;#xFF0C;&amp;#x6211;&amp;#x5374;&amp;#x51FA;&amp;#x5947;&amp;#x7684;&amp;#x5E73;&amp;#x9759;&amp;#x3002;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&amp;#x7236;&amp;#x503A;&amp;#x5B50;&amp;#x507F;&amp;#xFF0C;&amp;#x5929;&amp;#x7ECF;&amp;#x5730;&amp;#x4E49;&amp;#x3002;&amp;#x53EA;&amp;#x60F3;&amp;#x66FF;&amp;#x6211;&amp;#x7236;&amp;#x4EB2;&amp;#x5BF9;&amp;#x4EB2;&amp;#x621A;&amp;#x4EEC;&amp;#x8BF4;&amp;#x58F0;&amp;#x5BF9;&amp;#x4E0D;&amp;#x8D77;&amp;#xFF0C;&amp;#x591A;&amp;#x5E74;&amp;#x4EE5;&amp;#x6765;&amp;#x6B20;&amp;#x4F60;&amp;#x4EEC;&amp;#x7684;&amp;#x592A;&amp;#x591A;&amp;#x592A;&amp;#x591A;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&amp;#x6BCD;&amp;#x4EB2;&amp;#x7684;&amp;#x5FC3;&amp;#xFF0C;&amp;#x4E5F;&amp;#x53EA;&amp;#x80FD;&amp;#x6211;&amp;#x6162;&amp;#x6162;&amp;#x7684;&amp;#x6CBB;&amp;#x6108;&amp;#x4E86;&amp;#xFF0C;&amp;#x56E0;&amp;#x4E3A;&amp;#x6211;&amp;#xFF0C;&amp;#x59D4;&amp;#x5C48;&amp;#x6BCD;&amp;#x4EB2;&amp;#x8FD9;&amp;#x8F88;&amp;#x5B50;&amp;#x4E86;&amp;#xFF0C;&amp;#x597D;&amp;#x5728;&amp;#x6BCD;&amp;#x4EB2;&amp;#x662F;&amp;#x4E2A;&amp;#x521A;&amp;#x5F3A;&amp;#x7684;&amp;#x5973;&amp;#x4EBA;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&amp;#x4ECA;&amp;#x5929;&amp;#x6211;&amp;#x4F4E;&amp;#x5934;&amp;#x5199;&amp;#x4E0A;&amp;#x7684;&amp;#x501F;&amp;#x6761;&amp;#xFF0C;&amp;#x6211;&amp;#x4E0D;&amp;#x611F;&amp;#x5230;&amp;#x7F9E;&amp;#x803B;&amp;#xFF0C;&amp;#x67D0;&amp;#x79CD;&amp;#x89D2;&amp;#x5EA6;&amp;#x6765;&amp;#x8BF4;&amp;#xFF0C;&amp;#x662F;&amp;#x6211;&amp;#x7684;&amp;#x7EB5;&amp;#x5BB9;&amp;#x548C;&amp;#x8F6F;&amp;#x5F31;&amp;#xFF0C;&amp;#x5BFC;&amp;#x81F4;&amp;#x4E86;&amp;#x8FD9;&amp;#x6837;&amp;#x7684;&amp;#x5C40;&amp;#x9762;&amp;#xFF0C;&amp;#x6211;&amp;#x539F;&amp;#x672C;&amp;#x5C31;&amp;#x4E0D;&amp;#x662F;&amp;#x4E00;&amp;#x4E2A;&amp;#x80FD;&amp;#x591F;&amp;#x529B;&amp;#x633D;&amp;#x72C2;&amp;#x6F9C;&amp;#x7684;&amp;#x4EBA;&amp;#xFF0C;&amp;#x6211;&amp;#x5F88;&amp;#x81EA;&amp;#x5351;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&amp;#x5982;&amp;#x679C;&amp;#x8FD9;&amp;#x662F;&amp;#x4E0A;&amp;#x5929;&amp;#x6CE8;&amp;#x5B9A;&amp;#x8981;&amp;#x7ED9;&amp;#x6211;&amp;#x7684;&amp;#xFF0C;&amp;#x90A3;&amp;#x6211;&amp;#x8BA4;&amp;#x4E86;&amp;#xFF0C;&amp;#x6211;&amp;#x613F;&amp;#x610F;&amp;#x9F13;&amp;#x8D77;&amp;#x52C7;&amp;#x6C14;&amp;#x9762;&amp;#x5BF9;&amp;#x8FD9;&amp;#x6837;&amp;#x7684;&amp;#x5C40;&amp;#x9762;&amp;#xFF0C;&amp;#x6211;&amp;#x4E0D;&amp;#x7EDD;&amp;#x671B;&amp;#xFF0C;&amp;#x4E5F;&amp;#x7B97;&amp;#x662F;&amp;#x6211;&amp;#x524D;&amp;#x534A;&amp;#x8F88;&amp;#x5B50;&amp;#x6D3B;&amp;#x7740;&amp;#x7684;&amp;#x89C1;&amp;#x8BC1;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&amp;#x518D;&amp;#x591A;&amp;#x7684;&amp;#x9053;&amp;#x6B49;&amp;#x548C;&amp;#x773C;&amp;#x6CEA;&amp;#x65E0;&amp;#x6CD5;&amp;#x8865;&amp;#x507F;&amp;#x5FC3;&amp;#x7075;&amp;#x7684;&amp;#x4F24;&amp;#x75DB;&amp;#xFF0C;&amp;#x66F4;&amp;#x65E0;&amp;#x6CD5;&amp;#x6539;&amp;#x53D8;&amp;#x65E2;&amp;#x6210;&amp;#x7684;&amp;#x4E8B;&amp;#x5B9E;&amp;#xFF0C;&amp;#x80FD;&amp;#x507F;&amp;#x8FD8;&amp;#x7684;&amp;#x6211;&amp;#x4F1A;&amp;#x548C;&amp;#x4ED6;&amp;#x4E00;&amp;#x8D77;&amp;#x5C3D;&amp;#x91CF;&amp;#x7684;&amp;#x6765;&amp;#x5F25;&amp;#x8865;&amp;#xFF0C;&amp;#x4F46;&amp;#x8FD9;&amp;#x4E2A;&amp;#x5BB6;&amp;#x5DF2;&amp;#x7ECF;&amp;#x5230;&amp;#x4E86;&amp;#x6781;&amp;#x9650;&amp;#xFF0C;&amp;#x6700;&amp;#x540E;&amp;#x4E00;&amp;#x6B21;&amp;#xFF0C;&amp;#x6211;&amp;#x53EA;&amp;#x76FC;&amp;#x6211;&amp;#x7236;&amp;#x56DE;&amp;#x5934;&amp;#x662F;&amp;#x5CB8;&amp;#xFF0C;&amp;#x56DE;&amp;#x5934;&amp;#x662F;&amp;#x5CB8;&amp;#x3002;&lt;/p&gt;
-&lt;p&gt;&amp;#x5185;&amp;#x5FC3;&amp;#x6DF1;&amp;#x5904;&amp;#xFF0C;&amp;#x6211;&amp;#x65E0;&amp;#x6CD5;&amp;#x4E0D;&amp;#x7231;&amp;#x6211;&amp;#x7684;&amp;#x7236;&amp;#x4EB2;&amp;#xFF0C;&amp;#x517B;&amp;#x6211;&amp;#x6210;&amp;#x4EBA;&amp;#xFF0C;&amp;#x6559;&amp;#x6211;&amp;#x9053;&amp;#x7406;&amp;#x3002;&amp;#x6211;&amp;#x5766;&amp;#x7136;&amp;#x9762;&amp;#x5BF9;&amp;#x8FD9;&amp;#x4E00;&amp;#x5207;&amp;#xFF0C;&amp;#x6B63;&amp;#x5982;&amp;#x6211;&amp;#x81EA;&amp;#x5351;&amp;#x7684;&amp;#x5FC3;&amp;#xFF0C;&amp;#x4E5F;&amp;#x6B8B;&amp;#x5B58;&amp;#x4E00;&amp;#x70B9;&amp;#x6700;&amp;#x540E;&amp;#x7684;&amp;#x5C0A;&amp;#x4E25;&amp;#x3002;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;真到了这一刻，我却出奇的平静。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="生活" scheme="http://jkissday.online/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="随笔" scheme="http://jkissday.online/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="家人" scheme="http://jkissday.online/tags/%E5%AE%B6%E4%BA%BA/"/>
+      <category term="阿森纳" scheme="http://jkup2.us/tags/%E9%98%BF%E6%A3%AE%E7%BA%B3/"/>
     
   </entry>
   
   <entry>
     <title>难言小事</title>
-    <link href="http://jkissday.online/shame-little-thing/"/>
-    <id>http://jkissday.online/shame-little-thing/</id>
+    <link href="http://jkup2.us/shame-little-thing/"/>
+    <id>http://jkup2.us/shame-little-thing/</id>
     <published>2014-06-16T15:11:11.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -939,17 +929,17 @@
     
     </summary>
     
-      <category term="生活" scheme="http://jkissday.online/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://jkup2.us/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="随笔" scheme="http://jkissday.online/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://jkup2.us/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>出发去杭州</title>
-    <link href="http://jkissday.online/leave-for-hangzhou/"/>
-    <id>http://jkissday.online/leave-for-hangzhou/</id>
+    <link href="http://jkup2.us/leave-for-hangzhou/"/>
+    <id>http://jkup2.us/leave-for-hangzhou/</id>
     <published>2014-05-11T07:09:14.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -977,17 +967,17 @@
     
     </summary>
     
-      <category term="工作" scheme="http://jkissday.online/categories/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="http://jkup2.us/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
-      <category term="随笔" scheme="http://jkissday.online/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://jkup2.us/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>coffee boy 的离职信</title>
-    <link href="http://jkissday.online/coffee-boy-goodbye-letter/"/>
-    <id>http://jkissday.online/coffee-boy-goodbye-letter/</id>
+    <link href="http://jkup2.us/coffee-boy-goodbye-letter/"/>
+    <id>http://jkup2.us/coffee-boy-goodbye-letter/</id>
     <published>2014-04-09T12:59:34.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -1028,17 +1018,17 @@
     
     </summary>
     
-      <category term="工作" scheme="http://jkissday.online/categories/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="http://jkup2.us/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
-      <category term="离职" scheme="http://jkissday.online/tags/%E7%A6%BB%E8%81%8C/"/>
+      <category term="离职" scheme="http://jkup2.us/tags/%E7%A6%BB%E8%81%8C/"/>
     
   </entry>
   
   <entry>
     <title>支付宝问答</title>
-    <link href="http://jkissday.online/alipay-interview/"/>
-    <id>http://jkissday.online/alipay-interview/</id>
+    <link href="http://jkup2.us/alipay-interview/"/>
+    <id>http://jkup2.us/alipay-interview/</id>
     <published>2014-03-07T13:38:39.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -1120,19 +1110,19 @@
     
     </summary>
     
-      <category term="工作" scheme="http://jkissday.online/categories/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="http://jkup2.us/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
-      <category term="面试" scheme="http://jkissday.online/tags/%E9%9D%A2%E8%AF%95/"/>
+      <category term="面试" scheme="http://jkup2.us/tags/%E9%9D%A2%E8%AF%95/"/>
     
-      <category term="支付宝" scheme="http://jkissday.online/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/"/>
+      <category term="支付宝" scheme="http://jkup2.us/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/"/>
     
   </entry>
   
   <entry>
     <title>Weinberg Triangle Problem</title>
-    <link href="http://jkissday.online/weinberg-triangle-problem/"/>
-    <id>http://jkissday.online/weinberg-triangle-problem/</id>
+    <link href="http://jkup2.us/weinberg-triangle-problem/"/>
+    <id>http://jkup2.us/weinberg-triangle-problem/</id>
     <published>2014-03-05T23:49:07.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -1364,19 +1354,19 @@
     
     </summary>
     
-      <category term="技术" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="测试" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="weinberg三角形" scheme="http://jkissday.online/tags/weinberg%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
+      <category term="weinberg三角形" scheme="http://jkup2.us/tags/weinberg%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
     
   </entry>
   
   <entry>
     <title>gitlab6.6 简单配置 postfix 发邮件</title>
-    <link href="http://jkissday.online/gitlab6-6-configure-postfix/"/>
-    <id>http://jkissday.online/gitlab6-6-configure-postfix/</id>
+    <link href="http://jkup2.us/gitlab6-6-configure-postfix/"/>
+    <id>http://jkup2.us/gitlab6-6-configure-postfix/</id>
     <published>2014-03-04T14:07:56.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -1459,23 +1449,23 @@
     
     </summary>
     
-      <category term="技术" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="linux" scheme="http://jkissday.online/categories/%E6%8A%80%E6%9C%AF/linux/"/>
+      <category term="linux" scheme="http://jkup2.us/categories/%E6%8A%80%E6%9C%AF/linux/"/>
     
     
-      <category term="gitlab" scheme="http://jkissday.online/tags/gitlab/"/>
+      <category term="gitlab" scheme="http://jkup2.us/tags/gitlab/"/>
     
-      <category term="postfix" scheme="http://jkissday.online/tags/postfix/"/>
+      <category term="postfix" scheme="http://jkup2.us/tags/postfix/"/>
     
-      <category term="sendmail" scheme="http://jkissday.online/tags/sendmail/"/>
+      <category term="sendmail" scheme="http://jkup2.us/tags/sendmail/"/>
     
   </entry>
   
   <entry>
     <title>Benny,Dean</title>
-    <link href="http://jkissday.online/benny-dean/"/>
-    <id>http://jkissday.online/benny-dean/</id>
+    <link href="http://jkup2.us/benny-dean/"/>
+    <id>http://jkup2.us/benny-dean/</id>
     <published>2014-03-01T15:17:08.000Z</published>
     <updated>2016-12-11T10:57:11.000Z</updated>
     
@@ -1521,10 +1511,10 @@
     
     </summary>
     
-      <category term="工作" scheme="http://jkissday.online/categories/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="http://jkup2.us/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
-      <category term="离职" scheme="http://jkissday.online/tags/%E7%A6%BB%E8%81%8C/"/>
+      <category term="离职" scheme="http://jkup2.us/tags/%E7%A6%BB%E8%81%8C/"/>
     
   </entry>
   

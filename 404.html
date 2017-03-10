@@ -168,7 +168,7 @@
 
             <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/生活/">
-                    生活 <span class="right">20 篇</span></a>
+                    生活 <span class="right">19 篇</span></a>
                 </a>
             </li>
 
@@ -306,7 +306,7 @@
 
             </div>
             <span class="grey-text">发表于</span>
-            <time class="indigo-link-context" datetime="2016-12-11T10:57:11.000Z"><a href="/404.html">2016-12-11</a></time>
+            <time class="indigo-link-context" datetime="2017-03-10T15:51:38.000Z"><a href="/404.html">2017-03-10</a></time>
 
             <span class="grey-text"> | 字数</span>
             <span class="indigo-link-context"><a href="/404.html">31</a></span>
@@ -325,7 +325,7 @@
 <head>
 </head>
 <body>
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://jkissday.online" homepagename="&#x56DE;&#x5230;&#x6211;&#x7684;&#x4E3B;&#x9875;"></script>
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://jkup2.us" homepagename="&#x56DE;&#x5230;&#x6211;&#x7684;&#x4E3B;&#x9875;"></script>
 </body>
 </html>
             </div>
@@ -427,7 +427,7 @@
         <div class="card">
             <div class="card-content">
                 <!-- Duoshuo Comment BEGIN -->
-                <div class="ds-thread" data-thread-key="" data-title="" data-url="http://jkissday.online/404.html"></div>
+                <div class="ds-thread" data-thread-key="" data-title="" data-url="http://jkup2.us/404.html"></div>
                 <script type="text/javascript">
                     var duoshuoQuery = {
                         short_name: 'jkissday'
@@ -455,6 +455,26 @@
 <!--<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2094227"></script>-->
 <!--&lt;!&ndash; UY END &ndash;&gt;-->
 
+<!--标签当中有private的需要密码-->
+<script>
+    var passwd= "sw";
+    var nonSecret= true;
+    var tags = document.getElementsByClassName("tags-row");
+    (function(){
+        for (var i = 0; i < tags.length; i++) {
+            var tagName = tags[i].innerHTML.replace(/<[^>]+>/g,"").trim();
+            if(tagName.indexOf("private")>0 || tagName.indexOf("PRIVATE")>0){
+                nonSecret=false
+            }
+        }
+        if (!nonSecret) {
+            if (prompt('请输入文章密码') !== passwd){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
 </div>
 
         <div class="fixed-action-btn float-sitemap">
@@ -532,7 +552,7 @@
                 </div>
                 <div class="col m8 s12">
                     <i class="fa fa-rocket"></i> Hexo | 主题 raytaylorism
-                    | 总字数 <span>67.3k</span>
+                    | 总字数 <span>66.9k</span>
                     | 总访问量 <span id="busuanzi_value_site_pv"></span> |
                     访客人次 <span id="busuanzi_value_site_uv"></span> |
                     页点击量 <span id="busuanzi_value_page_pv"></span>

@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://jkissday.online</loc>
+        <loc>http://jkup2.us</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://jkissday.online/2013-1213/</loc>
+        <loc>http://jkup2.us/please-be-back/</loc>
+        <lastmod>2017-03-10T17:04:19.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jkup2.us/2013-1213/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -15,7 +23,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/2013-year-summary-article-life/</loc>
+        <loc>http://jkup2.us/2013-year-summary-article-life/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -23,7 +31,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/2013-year-summary-article-love/</loc>
+        <loc>http://jkup2.us/2013-year-summary-of-work/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -31,7 +39,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/2013-year-summary-of-work/</loc>
+        <loc>http://jkup2.us/2014-year-summary-article/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -39,7 +47,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/2014-year-summary-article/</loc>
+        <loc>http://jkup2.us/2013-year-summary-article-love/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -47,7 +55,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/2015-year-summary-article/</loc>
+        <loc>http://jkup2.us/2015-year-summary-article/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -55,7 +63,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/520/</loc>
+        <loc>http://jkup2.us/520/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -63,7 +71,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/April-day/</loc>
+        <loc>http://jkup2.us/April-day/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -71,7 +79,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/about-time/</loc>
+        <loc>http://jkup2.us/about-markdown/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -79,7 +87,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/about-markdown/</loc>
+        <loc>http://jkup2.us/about-time/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -87,7 +95,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/after-travel/</loc>
+        <loc>http://jkup2.us/alipay-interview/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -95,7 +103,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/alipay-interview/</loc>
+        <loc>http://jkup2.us/after-travel/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -103,7 +111,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/another-said-many-things-of-the-night/</loc>
+        <loc>http://jkup2.us/another-said-many-things-of-the-night/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -111,7 +119,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/benny-dean/</loc>
+        <loc>http://jkup2.us/benny-dean/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -119,7 +127,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/cloud-testing-sauce-labs/</loc>
+        <loc>http://jkup2.us/coffee-boy-goodbye-letter/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -127,7 +135,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/coffee-boy-goodbye-letter/</loc>
+        <loc>http://jkup2.us/decade-gooner/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -135,7 +143,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/decade-gooner/</loc>
+        <loc>http://jkup2.us/cloud-testing-sauce-labs/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -143,7 +151,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/dns-blocked/</loc>
+        <loc>http://jkup2.us/dns-blocked/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -151,7 +159,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/down/</loc>
+        <loc>http://jkup2.us/down/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -159,7 +167,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/duruisi-sakas-page/</loc>
+        <loc>http://jkup2.us/first-week-of-the-new-year/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -167,7 +175,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/first-week-of-the-new-year/</loc>
+        <loc>http://jkup2.us/gitlab6-6-configure-postfix/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -175,7 +183,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/gitlab6-6-configure-postfix/</loc>
+        <loc>http://jkup2.us/leave-for-hangzhou/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -183,7 +191,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/goodbye-drum-washing-machine/</loc>
+        <loc>http://jkup2.us/duruisi-sakas-page/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -191,7 +199,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/japanese-street-singer/</loc>
+        <loc>http://jkup2.us/goodbye-drum-washing-machine/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -199,7 +207,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/leave-for-hangzhou/</loc>
+        <loc>http://jkup2.us/japanese-street-singer/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -207,7 +215,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/mandela-leaders-as-though-they-are/</loc>
+        <loc>http://jkup2.us/mandela-leaders-as-though-they-are/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -215,7 +223,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/movie-departures/</loc>
+        <loc>http://jkup2.us/mysql-logs/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -223,7 +231,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/mysql-logs/</loc>
+        <loc>http://jkup2.us/the-winter-solstice-night/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -231,7 +239,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/please-be-back/</loc>
+        <loc>http://jkup2.us/movie-departures/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -239,7 +247,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/shame-little-thing/</loc>
+        <loc>http://jkup2.us/star-dust/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -247,7 +255,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/star-dust/</loc>
+        <loc>http://jkup2.us/repost-Florence-Roma/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -255,7 +263,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/the-winter-solstice-night/</loc>
+        <loc>http://jkup2.us/time-after-time/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -263,7 +271,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/time-after-time/</loc>
+        <loc>http://jkup2.us/shame-little-thing/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -271,7 +279,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/travel-qingdao/</loc>
+        <loc>http://jkup2.us/travel-qingdao/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -279,7 +287,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/repost-Florence-Roma/</loc>
+        <loc>http://jkup2.us/vps-build-lnmpwordpress-blog-environment/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -287,7 +295,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/vps-build-lnmpwordpress-blog-environment/</loc>
+        <loc>http://jkup2.us/xargs-i/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -295,15 +303,7 @@
     </url>
 
     <url>
-        <loc>http://jkissday.online/xargs-i/</loc>
-        <lastmod>2016-12-11T10:57:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jkissday.online/weinberg-triangle-problem/</loc>
+        <loc>http://jkup2.us/weinberg-triangle-problem/</loc>
         <lastmod>2016-12-11T10:57:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
