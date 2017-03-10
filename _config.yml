@@ -9,10 +9,11 @@ description: 长啸一声会有时!
 author: Jack Wang
 language: zh-CN
 timezone: 
+password: sw
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://jkissday.online
+url: http://jkup2.us
 root: /
 permalink: :title/
 permalink_defaults:

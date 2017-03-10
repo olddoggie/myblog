@@ -40,3 +40,24 @@
 </article>
 
 <%- partial('plugin/comment') %>
+
+<!--标签当中有private的需要密码-->
+<script>
+    var passwd= "<%= config.password %>";
+    var nonSecret= true;
+    var tags = document.getElementsByClassName("tags-row");
+    (function(){
+        for (var i = 0; i < tags.length; i++) {
+            var tagName = tags[i].innerHTML.replace(/<[^>]+>/g,"").trim();
+            if(tagName.indexOf("private")>0 || tagName.indexOf("PRIVATE")>0){
+                nonSecret=false
+            }
+        }
+        if (!nonSecret) {
+            if (prompt('请输入文章密码') !== passwd){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
