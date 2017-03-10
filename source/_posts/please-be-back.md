@@ -1,11 +1,12 @@
 ---
 title: 回头是岸
 tags:
-  - PRIVATE
+  - 随笔
+  - private
 categories:
   - 生活
 date: 2014-10-03 14:13:24
-
+---
 真到了这一刻，我却出奇的平静。
 
 <!--more-->

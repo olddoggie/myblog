@@ -49,7 +49,7 @@
     (function(){
         for (var i = 0; i < tags.length; i++) {
             var tagName = tags[i].innerHTML.replace(/<[^>]+>/g,"").trim();
-            if(tagName.indexOf("private")>0 || tagName.indexOf("PRIVATE")>0){
+            if(tagName.indexOf("private")>=0 || tagName.indexOf("PRIVATE")>=0){
                 nonSecret=false
             }
         }
