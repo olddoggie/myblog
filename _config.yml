@@ -8,8 +8,10 @@ subtitle: 我爱夏雪天
 description: 长啸一声会有时!
 author: Jack Wang
 language: zh-CN
-timezone: 
-password: sw
+timezone:
+
+# Private 分类或者标签passwd tips:尚文
+password: c3c=
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

@@ -3,6 +3,8 @@
 <script src="<%- config.root %>js/jquery-2.1.1.min.js"></script>
 <script src="<%- config.root %>js/materialize.min.js"></script>
 <script src="<%- config.root %>js/search.js"></script>
+<script src="<%- config.root %>js/base64.js"></script>
+
 
 <%- partial('plugin/main_javascript') %>
 
@@ -17,4 +19,40 @@
     }
     var path = "<%= config.root %>" + search_path;
     searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+
+<!--1. category或tag页面是private/PRIVATE的需要密码-->
+<!--2. 文章tag当中有private/PRIVATE的需要密码-->
+<!--3. 理论上文章列表页面上tag当中有private/PRIVATE的文章已经被过滤,但如果存在,不影响页面展示,当点击文章链接后需要密码-->
+<script type="text/javascript">
+    var b = new Base64();
+    var passwd = b.decode("<%= config.password %>")
+    var url = window.location.toString().split("/");
+    var urlLen = url.length;
+    var urlCat = url[urlLen-3].trim();
+    var urlNm = url[urlLen-2].trim();
+    (function(){
+        if( (urlCat == "categories" || urlCat == "tags") && (urlNm=="private" || urlNm == "PRIVATE")){
+            if (prompt('请输入文章密码') !== passwd){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+    var nonSecret= true;
+    var tags = document.getElementsByClassName("tags-row");
+    (function(){
+        for (var i = 0; i < tags.length; i++) {
+            var tagName = tags[i].innerHTML.replace(/<[^>]+>/g,"").trim();
+            if(urlCat!="page" && (tagName.indexOf("private")>=0 || tagName.indexOf("PRIVATE")>=0)){
+                nonSecret=false
+            }
+        }
+        if (!nonSecret) {
+            if (prompt('请输入文章密码') !== passwd){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
 </script>

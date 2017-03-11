@@ -2,7 +2,16 @@
 
 <div id="article-list" class="container main-container">
     <% page.posts.each(function(item){ %>
-        <%- partial('_partial/simple_article', {item: item, index: true, showEntry: true}) %>
+        <% var shown = true; %>
+        <% item.tags.forEach(function(tag){ %>
+            <% var tagName = tag.name; %>
+            <% if (tagName.indexOf("private")>=0 || tagName.indexOf("PRIVATE")>=0){ %>
+                <% shown = false; %>
+            <% } %>
+        <% }); %>
+        <% if (shown){ %>
+            <%- partial('_partial/simple_article', {item: item, index: true, showEntry: true}) %>
+        <% } %>
     <% }); %>
 
     <%- partial('_partial/pagination') %>
