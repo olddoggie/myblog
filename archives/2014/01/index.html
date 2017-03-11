@@ -36,6 +36,8 @@
 
 
 <body>
+    <div id="loadingDiv" style="position:fixed;display:none;z-index:2000;top:0px;left:0px;width:100%;height:100%;background-color:white"></div>
+
     <img src="/weixin_favicon.png" style="position: absolute; left: -9999px; opacity: 0; filter: alpha(opacity=0);">
 
     <nav class="indigo">
@@ -167,14 +169,6 @@
             
 
             <li class="collapse-level-0" collapse-level="0">
-                <a class="no-padding" href="/categories/生活/">
-                    生活 <span class="right">19 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/艺术/">
                     艺术 <span class="right">2 篇</span></a>
                 </a>
@@ -193,6 +187,14 @@
             <li class="collapse-level-1" collapse-level="1">
                 <a class="no-padding" href="/categories/艺术/电影/">
                     电影 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/生活/">
+                    生活 <span class="right">19 篇</span></a>
                 </a>
             </li>
 
@@ -446,11 +448,13 @@
     <p class="center-align">当前浏览器不支持博客完整功能。如果要获得最佳体验，请点击右上角···，复制链接，并在其它浏览器打开</p>
 </div>
 
+<link rel="stylesheet" type="text/css" href="/css/xcConfirm.css"/>
 
 <script src="/js/jquery-2.1.1.min.js"></script>
 <script src="/js/materialize.min.js"></script>
 <script src="/js/search.js"></script>
 <script src="/js/base64.js"></script>
+<script src="/js/xcConfirm.js"></script>
 
 
 <script>
@@ -566,10 +570,24 @@ MathJax.Hub.Config({
     var urlNm = url[urlLen-2].trim();
     (function(){
         if( (urlCat == "categories" || urlCat == "tags") && (urlNm=="private" || urlNm == "PRIVATE")){
-            if (prompt('请输入文章密码') !== passwd){
-                alert('密码错误！');
-                history.back();
-            }
+//          不能使用较为方便的prompt方法,因为这样无法控制js的渲染顺序,有可能出现页面已经加载出内容,同时弹出密码框,这样起不到加密作用
+//            if(prompt('请输入文章密码') !== passwd){
+//                alert('密码错误！');
+//                history.back();
+//            }
+            // 解决方法是自己写popUp弹出框,并通过页面图层覆盖来达到防偷窥效果:
+            // 1. 先把页面至于全白
+            $('#loadingDiv').css('display','block');
+            // 2. 调用自定义的pop box ; 3. 回调函数中指定密码比较逻辑,比较成功后将全白图层隐藏
+            window.wxc.xcConfirm("请输入文章密码", window.wxc.xcConfirm.typeEnum.input,
+                    {onOk:function(v){
+                        if(v!=passwd) {
+                            alert('密码错误！');
+                            history.back();
+                        } else {
+                            $('#loadingDiv').css('display','none');
+                        }
+                    }} );
         }
     })();
     var nonSecret= true;
@@ -577,17 +595,26 @@ MathJax.Hub.Config({
     (function(){
         for (var i = 0; i < tags.length; i++) {
             var tagName = tags[i].innerHTML.replace(/<[^>]+>/g,"").trim();
-            if(urlCat!="page" && (tagName.indexOf("private")>=0 || tagName.indexOf("PRIVATE")>=0)){
+            if(urlCat!="page" && urlCat!="categories" && urlCat!="tags" &&(tagName.indexOf("private")>=0 || tagName.indexOf("PRIVATE")>=0)){
                 nonSecret=false
             }
         }
         if (!nonSecret) {
-            if (prompt('请输入文章密码') !== passwd){
-                alert('密码错误！');
-                history.back();
-            }
+            // 1. 先把页面至于全白
+            $('#loadingDiv').css('display','block');
+            // 2. 调用自定义的pop box ; 3. 回调函数中指定密码比较逻辑,比较成功后将全白图层隐藏
+            window.wxc.xcConfirm("请输入文章密码", window.wxc.xcConfirm.typeEnum.input,
+                    {onOk:function(v){
+                        if(v!=passwd) {
+                            alert('密码错误！');
+                            history.back();
+                        } else {
+                            $('#loadingDiv').css('display','none');
+                        }
+                    }} );
         }
     })();
 </script>
+
 </body>
 </html>
