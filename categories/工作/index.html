@@ -168,7 +168,7 @@
 
             <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/生活/">
-                    生活 <span class="right">20 篇</span></a>
+                    生活 <span class="right">19 篇</span></a>
                 </a>
             </li>
 
@@ -215,16 +215,16 @@
         
 
             <li class="collapse-level-1" collapse-level="1">
-                <a class="no-padding" href="/categories/技术/测试/">
-                    测试 <span class="right">2 篇</span></a>
+                <a class="no-padding" href="/categories/技术/工具/">
+                    工具 <span class="right">1 篇</span></a>
                 </a>
             </li>
 
         
 
             <li class="collapse-level-1" collapse-level="1">
-                <a class="no-padding" href="/categories/技术/工具/">
-                    工具 <span class="right">1 篇</span></a>
+                <a class="no-padding" href="/categories/技术/测试/">
+                    测试 <span class="right">2 篇</span></a>
                 </a>
             </li>
 
@@ -257,6 +257,14 @@
             <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/体育/">
                     体育 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/private/">
+                    private <span class="right">1 篇</span></a>
                 </a>
             </li>
 
@@ -432,6 +440,8 @@
 <script src="/js/jquery-2.1.1.min.js"></script>
 <script src="/js/materialize.min.js"></script>
 <script src="/js/search.js"></script>
+<script src="/js/base64.js"></script>
+
 
 <script>
 (function($) {
@@ -532,6 +542,42 @@ MathJax.Hub.Config({
     }
     var path = "/" + search_path;
     searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+
+<!--1. category或tag页面是private/PRIVATE的需要密码-->
+<!--2. 文章tag当中有private/PRIVATE的需要密码-->
+<!--3. 理论上文章列表页面上tag当中有private/PRIVATE的文章已经被过滤,但如果存在,不影响页面展示,当点击文章链接后需要密码-->
+<script type="text/javascript">
+    var b = new Base64();
+    var passwd = b.decode("c3c=")
+    var url = window.location.toString().split("/");
+    var urlLen = url.length;
+    var urlCat = url[urlLen-3].trim();
+    var urlNm = url[urlLen-2].trim();
+    (function(){
+        if( (urlCat == "categories" || urlCat == "tags") && (urlNm=="private" || urlNm == "PRIVATE")){
+            if (prompt('请输入文章密码') !== passwd){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+    var nonSecret= true;
+    var tags = document.getElementsByClassName("tags-row");
+    (function(){
+        for (var i = 0; i < tags.length; i++) {
+            var tagName = tags[i].innerHTML.replace(/<[^>]+>/g,"").trim();
+            if(urlCat!="page" && (tagName.indexOf("private")>=0 || tagName.indexOf("PRIVATE")>=0)){
+                nonSecret=false
+            }
+        }
+        if (!nonSecret) {
+            if (prompt('请输入文章密码') !== passwd){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
 </script>
 </body>
 </html>
