@@ -13,7 +13,7 @@ menu:
     category: true
     icon: bookmark
     class: menu-category
-  - text: 读书
+  - text: 收藏
     link: /reading
     icon: book
     class: menu-reading

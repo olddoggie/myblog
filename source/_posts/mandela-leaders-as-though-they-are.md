@@ -1,6 +1,7 @@
 ---
-title: 领袖当如是也
+title: 领袖当如是也 - 纪念 Nelson Mandela
 tags:
+  - Nelson Mandela
   - 曼德拉
 categories:
   - 生活
@@ -30,4 +31,6 @@ date: 2013-12-07 01:00:45
 
 > Never, never and never again shall it be that this beautiful land will again experience the oppression of one by another.
 >
-> -- [<span style="color:#337FE5;">Nelson Mandela](http://en.wikipedia.org/wiki/Nelson_Mandela)
+> -- [<span style="color:#337FE5;">Nelson Mandela</span>](http://en.wikipedia.org/wiki/Nelson_Mandela)
+
+![世博会南非馆](http://7xr6h2.com1.z0.glb.clouddn.com/meAnd%E6%9B%BC%E5%BE%B7%E6%8B%89.jpeg)

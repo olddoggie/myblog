@@ -4,6 +4,7 @@ tags:
   - 随笔
   - private
 categories:
+  - 生活
   - private
 date: 2014-10-03 14:13:24
 ---

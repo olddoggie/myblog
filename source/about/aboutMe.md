@@ -13,7 +13,7 @@ date: 2016-03-01 11:11:11
 
 <br><br>
 ## **Lost 名言**
->Struggling is the natural way of Strengthening.
+> Struggling is the natural way of Strengthening.
 
 <br><br>
 
@@ -35,7 +35,7 @@ date: 2016-03-01 11:11:11
 
 活着、白鹿原、平凡的世界、恶意、帷幕、不能承受的生命之轻、在流放地  ...
 
--->读书页：http://jkissday.online/reading/
+-->读书页：http://jkup2.us/reading/
 
 <br><br>
 

@@ -1,7 +1,6 @@
 ---
-title: 星辰
+title: 星辰 stardust
 tags:
-  - stardust
   - 随笔
 categories:
   - 生活

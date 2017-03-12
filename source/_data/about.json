@@ -5,19 +5,19 @@
     "desc": "巨蟹座捧哏一枚，间歇性癫痫晚期，偶尔空发些慷慨激昂。",
 
 	"skills": {
-		"Java": 6,
+		"Java": 7,
 		"Linux/Shell": 8,
-		"Python": 5,
-		"SQL": 6,
+		"Python": 6,
+		"SQL": 7,
 		"Node.js":4,
 
 		"invisible-split-line-1": -1,
 
 		"Selenium": 8,
-		"TestNg": 8,
-		"Jenkins/CI": 8,
+		"TestNg": 9,
+		"Jenkins/CI": 9,
 		"Appium": 4,
-		"Jmeter": 5,
+		"Jmeter": 6,
 
 		"invisible-split-line-2": -2,
 
@@ -31,42 +31,42 @@
 
     "projects": [{
 	  "name": "外资银行后台On Call系统 测试经验",
-	  "image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
+	  "image": "http://7xr6h2.com1.z0.glb.clouddn.com/time-lords-drib.jpg",
 	  "tags": ["On Call System", "银行业务"],
 	  "description": "2年外资银行On Call Center系统测试经验",
 	  "link_text": "网站链接",
 	  "link": "https://www.1fbusa.com/fscm/"
 	},{
 	  "name": "大型互联网金融理财平台 测试经验",
-	  "image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
+	  "image": "http://7xr6h2.com1.z0.glb.clouddn.com/time-lords-drib.jpg",
 	  "tags": ["互联网金融", "理财业务","金融领域"],
-	  "description": "3年大型互联网金融理财平台测试经验",
+	  "description": "4年大型互联网金融理财平台测试经验",
 	  "link_text": "网站链接",
 	  "link": "https://yebprod.alipay.com/yeb/index.htm"
 	},{
 	  "name": "SCM Automatic Scripts",
-	  "image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
+	  "image": "http://7xr6h2.com1.z0.glb.clouddn.com/time-lords-drib.jpg",
 	  "tags": ["2012年", "自动化脚本","效能提升"],
 	  "description": "基于Shell Script, 结合CVS/SVN/MVN/ANT/Git等SCM工作流程中相关的工具,自动化SCM日常工作中需要的操作,使得SCM操作效率大大提升;并通过crontab自动化运行定时任务,完成备份监控,预警提醒等系列辅助工作",
 	  "link_text": "Github地址",
 	  "link": "https://github.com/olddoggie"
 	},{
 	  "name": "QTP Keyword FrameWork",
-	  "image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
+	  "image": "http://7xr6h2.com1.z0.glb.clouddn.com/time-lords-drib.jpg",
 	  "tags": ["2013年", "自动化测试","关键字驱动"],
 	  "description": "基于QTP+VB 的自动化[关键字驱动]测试框架,业务线测试通过配置excel完成自动化用例构建",
 	  "link_text": "Github地址",
 	  "link": "https://github.com/olddoggie"
 	},{
 		"name": "QA Testing Framework",
-		"image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
+		"image": "http://7xr6h2.com1.z0.glb.clouddn.com/time-lords-drib.jpg",
 		"description": "基于Selenium+TestNG的自动化测试框架,结合持续集成工具,进行网页UI及功能的全自动测试验收",
 		"tags": ["2014年", "自动化测试", "持续集成"],
 		"link_text": "Github地址",
 		"link": "https://github.com/olddoggie"
 	},{
 	  "name": "文件自动化测试框架",
-	  "image": "https://d13yacurqjgara.cloudfront.net/users/4094/screenshots/2578885/time-lords-drib_1x.jpg",
+	  "image": "http://7xr6h2.com1.z0.glb.clouddn.com/time-lords-drib.jpg",
 	  "description": "基于Spring+Selenium+TestNG的文件自动化测试框架,结合持续集成工具,进行文件链路的全自动测试验收",
 	  "tags": ["2016年", "自动化测试","文件自动化"],
 	  "link_text": "Github地址",
@@ -74,28 +74,27 @@
 	}],
 
 	"hobbies": {
-	  "皮雷": 10,
-	  "特维斯": 9,
-	  "汤姆布雷迪": 8,
+		"足球": 9,
+		"滑雪": 6,
+		"羽毛球": 7,
 
-	  "invisible-split-line-1": -1,
+		"invisible-split-line-1": -1,
 
-	  "陈道明": 10,
-	  "大表姐": 9,
-	  "广末凉子": 8,
+		"电影": 7,
+		"读书": 7,
+		"旅行": 8,
 
-	  "invisible-split-line-2": -2,
+		"invisible-split-line-2": -2,
 
-	  "卡夫卡": 10,
-	  "陈忠实": 9,
-	  "川端康成": 8,
+		"阿森纳/皮雷": 10,
+		"特维斯": 9,
+		"爱国者/汤姆布雷迪": 9,
 
-	  "invisible-split-line-3": -3,
+		"invisible-split-line-3": -3,
 
-	  "李安": 10,
-	  "是枝裕和": 9,
-	  "斯皮尔伯格": 8
-
+		"卡夫卡": 10,
+		"是枝裕和": 9,
+		"大表姐": 10
 	},
 
 	"reward": [

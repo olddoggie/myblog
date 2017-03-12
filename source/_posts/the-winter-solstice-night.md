@@ -2,7 +2,6 @@
 title: 冬至夜
 tags:
   - 冬至
-  - 爷爷
   - 家人
 categories:
   - 生活
