@@ -7,7 +7,7 @@
 
     
 
-    <title>归档：2015/3 | 我爱夏雪天</title>
+    <title>归档：2014/11 | 我爱夏雪天</title>
     <meta name="author" content="Jack Wang">
     
     <meta name="description" content="长啸一声会有时!">
@@ -73,7 +73,7 @@
                     <li>
                         <a class="menu-reading " href="/reading" >
                             <i class="fa fa-book "></i>
-                            读书
+                            收藏
                         </a>
                     </li>
                 
@@ -128,7 +128,7 @@
             <li class="no-padding">
                 <a class="waves-effect menu-reading " href="/reading" >
                     <i class="fa fa-book "></i>
-                    读书
+                    收藏
                 </a>
             </li>
         
@@ -169,32 +169,16 @@
             
 
             <li class="collapse-level-0" collapse-level="0">
-                <a class="no-padding" href="/categories/艺术/">
-                    艺术 <span class="right">2 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-1" collapse-level="1">
-                <a class="no-padding" href="/categories/艺术/小说/">
-                    小说 <span class="right">1 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-1" collapse-level="1">
-                <a class="no-padding" href="/categories/艺术/电影/">
-                    电影 <span class="right">1 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/生活/">
-                    生活 <span class="right">19 篇</span></a>
+                    生活 <span class="right">20 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/生活/private/">
+                    private <span class="right">3 篇</span></a>
                 </a>
             </li>
 
@@ -265,8 +249,32 @@
         
 
             <li class="collapse-level-0" collapse-level="0">
-                <a class="no-padding" href="/categories/private/">
-                    private <span class="right">1 篇</span></a>
+                <a class="no-padding" href="/categories/艺术/">
+                    艺术 <span class="right">8 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/艺术/电影/">
+                    电影 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/艺术/书籍/">
+                    书籍 <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/艺术/音乐/">
+                    音乐 <span class="right">5 篇</span></a>
                 </a>
             </li>
 
@@ -292,7 +300,7 @@
 
 <nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">当前位置2015/3</span>
+        <span class="breadcrumb">当前位置2014/11</span>
         
 
         
@@ -306,15 +314,21 @@
         
             <li>
                 <div class="collapsible-header active">
-                    <i class="fa fa-archive"></i>2015年
+                    <i class="fa fa-archive"></i>2014年
                 </div>
                 <div class="collapsible-body">
                     <div class="collection">
                         
-                            <a href="/after-travel/" class="collection-item indigo-text text-darken-1">
-                                <time datetime="2015-03-08T15:21:58.000Z">2015-03-08</time>
+                            <a href="/visit-rokgy-home/" class="collection-item indigo-text text-darken-1">
+                                <time datetime="2014-11-30T15:00:56.000Z">2014-11-30</time>
                                 <span>&nbsp;&nbsp;&nbsp;</span>
-                                回到现实
+                                记第22届上大菊花展及Rokgy's Home一日游
+                            </a>
+                        
+                            <a href="/song-viva-la-vida/" class="collection-item indigo-text text-darken-1">
+                                <time datetime="2014-11-09T16:39:49.000Z">2014-11-10</time>
+                                <span>&nbsp;&nbsp;&nbsp;</span>
+                                知秋 -viva la vida
                             </a>
                         
                     </div>
@@ -401,7 +415,7 @@
                 </div>
                 <div class="col m8 s12">
                     <i class="fa fa-rocket"></i> Hexo | 主题 raytaylorism
-                    | 总字数 <span>67.3k</span>
+                    | 总字数 <span>73.4k</span>
                     | 总访问量 <span id="busuanzi_value_site_pv"></span> |
                     访客人次 <span id="busuanzi_value_site_uv"></span> |
                     页点击量 <span id="busuanzi_value_page_pv"></span>
@@ -542,7 +556,8 @@ MathJax.Hub.Config({
     var passwd = b.decode("c3c=")
     var url = window.location.toString().split("/");
     var urlLen = url.length;
-    var urlCat = url[urlLen-3].trim();
+    // <http_host>/categories/生活/private/ : 截取urlCat=categories; urlNm=private
+    var urlCat = url[urlLen-4].trim();
     var urlNm = url[urlLen-2].trim();
     (function(){
         if( (urlCat == "categories" || urlCat == "tags") && (urlNm=="private" || urlNm == "PRIVATE")){
