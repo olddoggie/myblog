@@ -55,7 +55,7 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/shame-little-thing/</loc>
+        <loc>http://jkup2.us/she/</loc>
         <lastmod>2017-03-14T16:30:26.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -63,7 +63,7 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/she/</loc>
+        <loc>http://jkup2.us/shame-little-thing/</loc>
         <lastmod>2017-03-14T16:30:26.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -103,7 +103,7 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/2013-year-summary-article-life/</loc>
+        <loc>http://jkup2.us/2013-1213/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -111,7 +111,7 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/2013-1213/</loc>
+        <loc>http://jkup2.us/2013-year-summary-article-life/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -143,14 +143,6 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/2015-year-summary-article/</loc>
-        <lastmod>2017-03-14T16:19:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jkup2.us/April-day/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -159,7 +151,7 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/about-markdown/</loc>
+        <loc>http://jkup2.us/2015-year-summary-article/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -168,6 +160,14 @@
 
     <url>
         <loc>http://jkup2.us/about-time/</loc>
+        <lastmod>2017-03-14T16:19:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jkup2.us/about-markdown/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -271,14 +271,6 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/mandela-leaders-as-though-they-are/</loc>
-        <lastmod>2017-03-14T16:19:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jkup2.us/movie-departures/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -287,7 +279,7 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/mysql-logs/</loc>
+        <loc>http://jkup2.us/mandela-leaders-as-though-they-are/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -295,7 +287,7 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/repost-Florence-Roma/</loc>
+        <loc>http://jkup2.us/mysql-logs/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -312,6 +304,14 @@
 
     <url>
         <loc>http://jkup2.us/the-winter-solstice-night/</loc>
+        <lastmod>2017-03-14T16:19:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jkup2.us/repost-Florence-Roma/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
