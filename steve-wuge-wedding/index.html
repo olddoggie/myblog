@@ -140,15 +140,39 @@
             </li>
         
         <li class="no-padding">
+            <a class="waves-effect menu-camera " href="/photo">
+                <i class="fa fa-camera"></i>
+                照片墙
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-rocket" href="/timeRocket">
+                <i class="fa fa-rocket"></i>
+                时间轴
+            </a>
+        </li>
+        <li class="no-padding">
             <a class="waves-effect menu-home " href="/search">
                 <i class="fa fa-search"></i>
                 搜索
             </a>
         </li>
         <li class="no-padding">
-            <a class="waves-effect menu-home " href="http://jkissday.duoshuo.com/admin" target="_blank">
+            <a class="waves-effect menu-home " href="http://changyan.kuaizhan.com/stat-data/comment" target="_blank">
                 <i class="fa fa-comments"></i>
                 评论
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-reddit " href="https://wanqu.co" target="_blank">
+                <i class="fa fa-reddit"></i>
+                湾区日报
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-globe " href="http://www.thepaper.cn/list_25600" target="_blank">
+                <i class="fa fa-globe"></i>
+                热点快看
             </a>
         </li>
         <li class="no-padding">
@@ -257,6 +281,14 @@
         
 
             <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/艺术/电影/">
+                    电影 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
                 <a class="no-padding" href="/categories/艺术/书籍/">
                     书籍 <span class="right">2 篇</span></a>
                 </a>
@@ -267,14 +299,6 @@
             <li class="collapse-level-1" collapse-level="1">
                 <a class="no-padding" href="/categories/艺术/音乐/">
                     音乐 <span class="right">5 篇</span></a>
-                </a>
-            </li>
-
-        
-
-            <li class="collapse-level-1" collapse-level="1">
-                <a class="no-padding" href="/categories/艺术/电影/">
-                    电影 <span class="right">1 篇</span></a>
                 </a>
             </li>
 
@@ -447,7 +471,11 @@
             </span>
         </div>
     </div>
+
 </article>
+
+<!-- 分享-->
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"6","bdPos":"right","bdTop":"173.5"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
 
 
@@ -457,7 +485,7 @@
             <div class="card-content">
                 <!-- Changyan Comment BEGIN -->
                 <!--PC和WAP自适应版-->
-                <div id="SOHUCS" sid="Steve同学的婚礼"></div>
+                <div id="SOHUCS" sid="steve-wuge-wedding/"></div>
                 <script type="text/javascript">
                     (function(){
                         var appid = 'cysUBoMLM';
@@ -755,6 +783,27 @@ MathJax.Hub.Config({
                     }} );
         }
     })();
+    // 收藏页面的 TO DO 部分暂时没有必要加密,只是一些在读的书和博客方面的想法
+//    (function(){
+//        if(urlNm == "reading"){
+//            // 点击按钮后触发加密事件
+//            var readingType = document.getElementsByClassName('green-text');
+//            readingType[2].onclick = function() {
+//                // 1. 先把页面至于全白
+//                $('#loadingDiv').css('display','block');
+//                // 2. 调用自定义的pop box ; 3. 回调函数中指定密码比较逻辑,比较成功后将全白图层隐藏
+//                window.wxc.xcConfirm("请输入文章密码", window.wxc.xcConfirm.typeEnum.input,
+//                        {onOk:function(v){
+//                            if(v!=passwd) {
+//                                alert('密码错误！');
+//                                history.back();
+//                            } else {
+//                                $('#loadingDiv').css('display','none');
+//                            }
+//                        }} );
+//            }
+//        }
+//    })();
 </script>
 
 </body>
