@@ -80,4 +80,25 @@
                     }} );
         }
     })();
+    // 收藏页面的 TO DO 部分暂时没有必要加密,只是一些在读的书和博客方面的想法
+//    (function(){
+//        if(urlNm == "reading"){
+//            // 点击按钮后触发加密事件
+//            var readingType = document.getElementsByClassName('green-text');
+//            readingType[2].onclick = function() {
+//                // 1. 先把页面至于全白
+//                $('#loadingDiv').css('display','block');
+//                // 2. 调用自定义的pop box ; 3. 回调函数中指定密码比较逻辑,比较成功后将全白图层隐藏
+//                window.wxc.xcConfirm("请输入文章密码", window.wxc.xcConfirm.typeEnum.input,
+//                        {onOk:function(v){
+//                            if(v!=passwd) {
+//                                alert('密码错误！');
+//                                history.back();
+//                            } else {
+//                                $('#loadingDiv').css('display','none');
+//                            }
+//                        }} );
+//            }
+//        }
+//    })();
 </script>

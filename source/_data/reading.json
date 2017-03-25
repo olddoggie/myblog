@@ -1,8 +1,8 @@
 {
     "define": {
-        "list": "TO DO",
         "book": "Book",
-        "art": "Art"
+        "art": "Art",
+        "list": "TO DO"
     },
     "contents": {
         "list": [
@@ -11,14 +11,21 @@
                 "cover": "http://7xr6h2.com1.z0.glb.clouddn.com/colorful%20pupu.png",
                 "review": "主页支持照片墙,做照片流的展示",
                 "score": "",
-                "doubanLink": ""
+                "doubanLink": "/photo"
             },
             {
                 "title": "【coding】博客时间轴建设",
                 "cover": "http://7xr6h2.com1.z0.glb.clouddn.com/colorful%20pupu.png",
                 "review": "主页时间轴展示履历, 或者参与的活动等",
                 "score": "",
-                "doubanLink": ""
+                "doubanLink": "/timeRocket"
+            },
+            {
+                "title": "【话剧】每一件美妙的小事",
+                "cover": "http://img002.21cnimg.com/photos/album/20170323/m600/1E147B42E5E74C474D831E921A00D3A6.jpeg",
+                "review": "在经历了人生的起伏后,期待文章能用成熟的表演诠释美妙的小事",
+                "score": "",
+                "doubanLink": "http://news.21cn.com/caiji/roll1/a/2017/0323/21/32099163.shtml"
             },
             {
                 "title": "【在读】明朝那些事",

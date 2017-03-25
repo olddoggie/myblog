@@ -44,12 +44,14 @@ excerpt_link: Read More
 archive_yearly: true
 
 # 版权信息
-copyright: © 2016 jkup2.us, All rights reserved.
+copyright: © 2017 jkup2.us, All rights reserved.
 
 # Disqus评论shortname，若为空则不启用
 disqus_shortname:
 # 多说shortname，若为空则不启用
-duoshuo_shortname: jkissday
+duoshuo_shortname:
+# 畅言shortname，若为空则不启用
+changyan_shortname: www.jkup2.us
 
 # Google分析track id，若为空则不启用
 google_analytics:
