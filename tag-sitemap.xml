@@ -23,20 +23,6 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/tags/%E9%9D%A2%E8%AF%95/</loc>
-        <lastmod>2017-03-14T16:19:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jkup2.us/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/</loc>
-        <lastmod>2017-03-14T16:19:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jkup2.us/tags/markdown/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -51,14 +37,14 @@
     </url>
 
     <url>
-        <loc>http://jkup2.us/tags/%E4%BA%91%E6%B5%8B%E8%AF%95/</loc>
+        <loc>http://jkup2.us/tags/%E9%9D%A2%E8%AF%95/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jkup2.us/tags/sauce-labs/</loc>
+        <loc>http://jkup2.us/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -80,6 +66,20 @@
 
     <url>
         <loc>http://jkup2.us/tags/%E8%81%8C%E5%9C%BA/</loc>
+        <lastmod>2017-03-14T16:19:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jkup2.us/tags/%E4%BA%91%E6%B5%8B%E8%AF%95/</loc>
+        <lastmod>2017-03-14T16:19:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jkup2.us/tags/sauce-labs/</loc>
         <lastmod>2017-03-14T16:19:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
