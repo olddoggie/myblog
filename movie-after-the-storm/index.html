@@ -1,0 +1,831 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    
+
+    <title>比海更深 海より深く | 我爱夏雪天</title>
+    <meta name="author" content="Jack Wang">
+    
+    <meta name="description" content="长啸一声会有时!">
+    
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:title" content="比海更深 海より深く"/>
+    <meta property="og:site_name" content="我爱夏雪天"/>
+
+    
+    <meta property="og:image" content="undefined"/>
+    
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="alternate" href="/atom.xml" title="我爱夏雪天" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/lib/materialize.min.css">
+    <link rel="stylesheet" href="/css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+
+    
+        <link rel="stylesheet" href="/css/lib/prettify-tomorrow-night-eighties.css" type="text/css">
+    
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+
+<body>
+    <div id="loadingDiv" style="position:fixed;display:none;z-index:2000;top:0px;left:0px;width:100%;height:100%;background-color:white"></div>
+
+    <img src="/weixin_favicon.png" style="position: absolute; left: -9999px; opacity: 0; filter: alpha(opacity=0);">
+
+    <nav class="indigo">
+    <div class="nav-wrapper">
+        <a href="#" data-activates="main-menu" class="button-collapse">
+            <i class="fa fa-navicon"></i>
+        </a>
+        <div class="">
+            <a href="/" class="brand-logo hide-on-med-and-down">我爱夏雪天</a>
+            <ul class="right hide-on-med-and-down">
+                
+                    <li>
+                        <a class="menu-home " href="/" >
+                            <i class="fa fa-home "></i>
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-archive " href="/archives" >
+                            <i class="fa fa-archive "></i>
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-category category-menu" href="javascript:;" data-activates="category-menu" >
+                            <i class="fa fa-bookmark "></i>
+                            分类
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-reading " href="/reading" >
+                            <i class="fa fa-book "></i>
+                            收藏
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="menu-about " href="/about" >
+                            <i class="fa fa-user "></i>
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div>
+    <ul class="side-nav indigo darken-1" id="main-menu">
+        
+        <li class="side-user">
+            <div class="row">
+                <div class="col s4 no-padding">
+                    <img class="avatar-image circle responsive-img" src="http://7xr6h2.com1.z0.glb.clouddn.com/avataryin.jpg" alt="User Avatar">
+                </div>
+                <div class="info col s8 valign-wrapper no-padding">
+                    <div class="valign">
+                        <p class="name">Jack.Wang</p>
+                        <p class="desc">单线程 | 程序猿</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-home " href="/" >
+                    <i class="fa fa-home "></i>
+                    首页
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-archive " href="/archives" >
+                    <i class="fa fa-archive "></i>
+                    归档
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-category category-menu" href="javascript:;" data-activates="category-menu" >
+                    <i class="fa fa-bookmark "></i>
+                    分类
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-reading " href="/reading" >
+                    <i class="fa fa-book "></i>
+                    收藏
+                </a>
+            </li>
+        
+            <li class="no-padding">
+                <a class="waves-effect menu-about " href="/about" >
+                    <i class="fa fa-user "></i>
+                    关于
+                </a>
+            </li>
+        
+        <li class="no-padding">
+            <a class="waves-effect menu-camera " href="/photo">
+                <i class="fa fa-camera"></i>
+                照片墙
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-rocket" href="/timeRocket">
+                <i class="fa fa-rocket"></i>
+                时间轴
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-home " href="/search">
+                <i class="fa fa-search"></i>
+                搜索
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-home " href="http://changyan.kuaizhan.com/stat-data/comment" target="_blank">
+                <i class="fa fa-comments"></i>
+                评论
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-reddit " href="https://wanqu.co" target="_blank">
+                <i class="fa fa-reddit"></i>
+                湾区日报
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-globe " href="http://www.thepaper.cn/list_25600" target="_blank">
+                <i class="fa fa-globe"></i>
+                热点快看
+            </a>
+        </li>
+        <li class="no-padding">
+            <a class="waves-effect menu-home " href="/">
+                <i class="fa fa-fire"></i>
+                彩蛋
+            </a>
+        </li>
+    </ul>
+
+    <ul class="side-nav indigo darken-1" id="category-menu">
+        <!--<li class="">
+            <h5 class="black-text">分类目录</h5>
+        </li>-->
+
+    
+
+            
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/生活/">
+                    生活 <span class="right">21 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/生活/private/">
+                    private <span class="right">4 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/工作/">
+                    工作 <span class="right">5 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/技术/">
+                    技术 <span class="right">8 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/技术/工具/">
+                    工具 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/技术/测试/">
+                    测试 <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/技术/web/">
+                    web <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/技术/linux/">
+                    linux <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/技术/数据库/">
+                    数据库 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/体育/">
+                    体育 <span class="right">1 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/艺术/">
+                    艺术 <span class="right">9 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/艺术/书籍/">
+                    书籍 <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/艺术/电影/">
+                    电影 <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/艺术/音乐/">
+                    音乐 <span class="right">5 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-0" collapse-level="0">
+                <a class="no-padding" href="/categories/旅行/">
+                    旅行 <span class="right">3 篇</span></a>
+                </a>
+            </li>
+
+        
+
+    </ul>
+</div>
+        </div>
+    </div>
+</nav>
+
+    <main>
+        <div class="container main-container">
+    
+
+<nav class="page-nav hide-on-small-only">
+    <div class="nav-wrapper indigo">
+        <span class="breadcrumb">当前位置（目录）</span>
+        
+            
+    
+    
+    <a class="breadcrumb" href="/categories/艺术/">艺术</a><a class="breadcrumb" href="/categories/艺术/电影/">电影</a>
+
+
+        
+
+        
+    </div>
+</nav>
+
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>比海更深 海より深く</h1>
+    
+
+
+            </div>
+            <span class="grey-text">发表于</span>
+            <time class="indigo-link-context" datetime="2017-04-09T13:30:00.000Z"><a href="/movie-after-the-storm/">2017-04-09</a></time>
+
+            <span class="grey-text"> | 字数</span>
+            <span class="indigo-link-context"><a href="/movie-after-the-storm/">1,122</a></span>
+            <span class="grey-text"> | 预计阅读时间</span>
+            <span class="indigo-link-context"><a href="/movie-after-the-storm/">7分钟</a></span>
+            
+    <div class="tags-row">
+        
+            <a href="/tags/private/" class="chip green accent-4">private</a>
+        
+            <a href="/tags/是枝裕和/" class="chip green accent-4">是枝裕和</a>
+        
+            <a href="/tags/阿部宽/" class="chip green accent-4">阿部宽</a>
+        
+            <a href="/tags/树木希林/" class="chip green accent-4">树木希林</a>
+        
+            <a href="/tags/真野阳子/" class="chip green accent-4">真野阳子</a>
+        
+    </div>
+
+
+            <div class="toc indigo-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry indigo-link-context">
+                <p>&#x300A;&#x6BD4;&#x6D77;&#x66F4;&#x6DF1;&#x300B;&#xFF0C;&#x662F;&#x679D;&#x88D5;&#x548C;&#x53C8;&#x4E00;&#x90E8;&#x5728;&#x5E73;&#x6DE1;&#x751F;&#x6D3B;&#x4E2D;&#x5145;&#x6EE1;&#x54F2;&#x7406;&#x601D;&#x8003;&#x7684;&#x610F;&#x5473;&#x6DF1;&#x957F;&#x7684;&#x597D;&#x4F5C;&#x54C1;&#x3002;</p>
+<p><embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=9203006&amp;page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></p>
+<a id="more"></a>
+<hr>
+<p>&#x6B63;&#x6E05;&#x660E;&#x7684;&#x524D;&#x591C;&#xFF0C;&#x534A;&#x591C;&#x597D;&#x50CF;&#x4E0B;&#x8FC7;&#x96E8;&#x3002;&#x4E0D;&#x77E5;&#x9053;&#x4E3A;&#x4EC0;&#x4E48;&#x60F3;&#x8D77;&#x300A;&#x6BD4;&#x6D77;&#x66F4;&#x6DF1;&#x300B;&#x8FD9;&#x90E8;&#x7247;&#x5B50;&#x3002;&#x6216;&#x8BB8;&#x662F;&#x6628;&#x5929;&#x56DE;&#x5B81;&#x6CE2;&#x626B;&#x5893;&#x4E86;&#xFF0C;&#x548C;&#x7236;&#x4EB2;&#x4E00;&#x8D77;&#x3002;</p>
+<p>&#x8367;&#x5C4F;&#x4E0A;&#x963F;&#x90E8;&#x5BBD;&#x6F14;&#x7ECE;&#x7684;&#x4E2D;&#x5E74;&#x4E0D;&#x5C31;&#x7684;&#x9893;&#x5E9F;&#x7537;&#x4EBA;&#x826F;&#x591A;&#xFF0C;&#x6B63;&#x662F;&#x6211;&#x7236;&#x4EB2;&#x7684;&#x5F71;&#x5B50;&#x3002;</p>
+<p>&#x800C;&#x89C2;&#x5F71;&#x65F6;&#x7684;&#x5FC3;&#x60C5;&#xFF0C;&#x683C;&#x5916;&#x5E73;&#x9759;&#x3002;&#x601D;&#x7EEA;&#x968F;&#x7740;&#x9093;&#x4E3D;&#x541B;&#x60A0;&#x626C;&#x7684;&#x6B4C;&#x58F0;&#xFF0C;&#x6F2B;&#x65E0;&#x8FB9;&#x9645;&#x7684;&#x53D1;&#x6563;&#x5728;&#x7075;&#x9B42;&#x6DF1;&#x5904;&#x3002;</p>
+<p>&#x7236;&#x4EB2;&#x81EA;&#x4ECE;&#x963F;&#x7237;&#x6B7B;&#x540E;&#x7684;&#x5341;&#x5E74;&#x91CC;&#xFF0C;&#x4E00;&#x4E8B;&#x65E0;&#x6210;&#xFF0C;&#x4E00;&#x76F4;&#x5728;&#x8D70;&#x9709;&#x8FD0;&#xFF0C;&#x8FDE;&#x7D2F;&#x4EB2;&#x4EBA;&#x3002;&#x8D4C;&#x7403;&#x3001;&#x6B20;&#x503A;&#x3001;&#x5F00;&#x9ED1;&#x8F66;&#x3001;&#x5DEE;&#x70B9;&#x79BB;&#x5A5A;&#x3002;&#x5E74;&#x8F7B;&#x65F6;&#x5019;&#x7684;&#x4ED6;&#x4E5F;&#x66FE;&#x7ECF;&#x91D1;&#x699C;&#x9898;&#x540D;&#x8003;&#x4E0A;&#x5927;&#x5B66;&#xFF0C;&#x6BD5;&#x4E1A;&#x540E;&#x7A33;&#x5B9A;&#x7684;&#x5DE5;&#x4F5C;&#xFF0C;&#x707F;&#x70C2;&#x7684;&#x524D;&#x9014;&#x3002;&#x4F46;&#x662F;&#x7981;&#x4E0D;&#x8D77;&#x8BF1;&#x60D1;&#x653E;&#x5F03;&#x4E86;&#x5DE5;&#x7A0B;&#x5E08;&#x7684;&#x804C;&#x4F4D;&#xFF0C;&#x5728;&#x4E5D;&#x5341;&#x5E74;&#x4EE3;&#x7684;&#x65F6;&#x5019;&#x5F00;&#x8D77;&#x4E86;&#x51FA;&#x79DF;&#xFF0C;&#x6700;&#x540E;&#x4EA4;&#x53CB;&#x4E0D;&#x614E;&#xFF0C;&#x6162;&#x6162;&#x7684;&#x8D25;&#x5149;&#x5BB6;&#x8D22;&#x3002;</p>
+<p>&#x5728;&#x6211;&#x773C;&#x91CC;&#xFF0C;&#x7236;&#x4EB2;&#x9AA8;&#x5B50;&#x91CC;&#x662F;&#x591A;&#x4E48;&#x6E29;&#x67D4;&#x548C;&#x5584;&#x826F;&#x7684;&#x4E00;&#x4E2A;&#x4EBA;&#xFF0C;&#x5934;&#x8111;&#x4E5F;&#x597D;&#x3002;&#x5373;&#x4FBF;&#x662F;&#x503A;&#x53F0;&#x9AD8;&#x7B51;&#xFF0C;&#x4ED6;&#x4E5F;&#x603B;&#x662F;&#x5F88;&#x60F3;&#x7684;&#x5F00;&#xFF0C;&#x4ECE;&#x5C0F;&#x5230;&#x5927;&#x4E70;&#x83DC;&#x505A;&#x996D;&#x4ECE;&#x4E0D;&#x8282;&#x7EA6;&#xFF0C;&#x5728;&#x6574;&#x4E2A;&#x5BB6;&#x65CF;&#x4E2D;&#x4E5F;&#x4ECE;&#x4E0D;&#x541D;&#x60DC;&#x81EA;&#x5DF1;&#x7684;&#x4ED8;&#x51FA;&#xFF0C;&#x6BD4;&#x5BB6;&#x5EAD;&#x91CC;&#x6240;&#x6709;&#x7684;&#x4EBA;&#x90FD;&#x5927;&#x6C14;&#x548C;&#x8C41;&#x8FBE;&#x3002;&#x4ED6;&#x4FE1;&#x5949;&#x94B1;&#x662F;&#x5403;&#x5149;&#x7528;&#x5149;&#x7684;&#xFF0C;&#x8EAB;&#x4F53;&#x5065;&#x5EB7;&#x624D;&#x662F;&#x6700;&#x91CD;&#x8981;&#x7684;&#x3002;</p>
+<p>&#x7136;&#x800C;&#x751F;&#x6D3B;&#x603B;&#x662F;&#x8FD9;&#x4E48;&#x7684;&#x590D;&#x6742;&#xFF0C;&#x603B;&#x662F;&#x5728;&#x65E7;&#x503A;&#x6162;&#x6162;&#x5C31;&#x8981;&#x5E73;&#x606F;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x65B0;&#x503A;&#x603B;&#x662F;&#x5982;&#x671F;&#x800C;&#x81F3;&#x3002;&#x6B20;&#x4E86;&#x503A;&#x4ED6;&#x60F3;&#x4E00;&#x4E2A;&#x4EBA;&#x625B;&#xFF0C;&#x53C8;&#x603B;&#x662F;&#x625B;&#x4E0D;&#x4E0B;&#x6765;&#x3002;&#x4E8E;&#x662F;&#x53EA;&#x597D;&#x50CF;&#x6211;&#x5988;&#x5F00;&#x53E3;&#xFF0C;&#x6E10;&#x6E10;&#x7684;&#x6211;&#x5988;&#x4E5F;&#x6CA1;&#x4E86;&#x4FE1;&#x5FC3;&#xFF0C;&#x603B;&#x662F;&#x521A;&#x521A;&#x79EF;&#x84C4;&#x8D77;&#x6765;&#x4E00;&#x70B9;&#xFF0C;&#x5F88;&#x5757;&#x5C31;&#x62FF;&#x53BB;&#x8FD8;&#x503A;&#x4E86;&#xFF0C;&#x6216;&#x8005;&#x6628;&#x5929;&#x8FD8;&#x5F88;&#x6109;&#x5FEB;&#xFF0C;&#x4ECA;&#x5929;&#x94B1;&#x67DC;&#x91CC;&#x7684;&#x94B1;&#x5C31;&#x88AB;&#x6211;&#x7238;&#x62FF;&#x8D70;&#x4E86;&#x3002;&#x56E0;&#x800C;&#x751F;&#x6D3B;&#x5C31;&#x5728;&#x8FD9;&#x6837;&#x7684;&#x4E89;&#x5435;&#x4E2D;&#x8D70;&#x5411;&#x7EDD;&#x671B;&#xFF0C;&#x4ED6;&#x610F;&#x8BC6;&#x5230;&#x4E0D;&#x80FD;&#x518D;&#x53BB;&#x4F24;&#x5BB3;&#x6BCD;&#x4EB2;&#x4E86;&#xFF0C;&#x800C;&#x6211;&#x7EC8;&#x4E8E;&#x6BD5;&#x4E1A;&#x4E86;&#x3002;&#x4E8E;&#x662F;&#x6211;&#x4EE5;&#x81EA;&#x5DF1;&#x7684;&#x540D;&#x4E49;&#x66FF;&#x4ED6;&#x95EE;&#x4E0D;&#x540C;&#x7684;&#x94F6;&#x884C;&#x501F;&#x94B1;&#xFF0C;&#x7136;&#x540E;&#x4ED6;&#x6BCF;&#x65E5;&#x51FA;&#x8F66;&#x7684;&#x8D39;&#x7528;&#x7ED9;&#x6211;&#x8FD8;&#x503A;&#xFF0C;&#x4F46;&#x4E5F;&#x662F;&#x907F;&#x514D;&#x4E0D;&#x4E86;&#x503A;&#x52A1;&#x4E0D;&#x51CF;&#x53CD;&#x589E;&#x7684;&#x547D;&#x8FD0;&#x3002;&#x6211;&#x7684;&#x8EAB;&#x4E0A;&#x5927;&#x5927;&#x5C0F;&#x5C0F;&#x5DF2;&#x7ECF;&#x5148;&#x540E;&#x501F;&#x4E86;&#x51E0;&#x5341;&#x4E07;&#x7684;&#x503A;&#x52A1;&#xFF0C;&#x4F46;&#x4E8B;&#x5B9E;&#x662F;&#x8FD8;&#x6709;&#x4E00;&#x90E8;&#x5206;&#x7B49;&#x7740;&#x4ECA;&#x5E74;&#x5E74;&#x5E95;&#x524D;&#x4E86;&#x7ED3;&#x2026;&#x2026;</p>
+<p>&#x5728;&#x90A3;&#x4E9B;&#x6F06;&#x9ED1;&#x7684;&#x591C;&#x665A;&#xFF0C;&#x7236;&#x4EB2;&#x4E00;&#x4E2A;&#x4EBA;&#x5750;&#x5728;&#x8F66;&#x91CC;&#x770B;&#x7740;&#x8DEF;&#x706F;&#x4E0B;&#x6E05;&#x51B7;&#x7684;&#x8857;&#x9053;&#x7684;&#x65F6;&#x523B;&#xFF0C;&#x4E00;&#x5B9A;&#x4E5F;&#x5728;&#x601D;&#x8003;&#x7740;&#x826F;&#x591A;&#x4E00;&#x6837;&#x7684;&#x95EE;&#x9898;&#xFF1A;</p>
+<blockquote>
+<p>&#x6211;&#x7684;&#x4EBA;&#x751F;&#x3001;&#x7A76;&#x7ADF;&#x662F;&#x5728;&#x54EA;&#x91CC;&#x4E0D;&#x6B63;&#x5E38;&#x4E86;&#x5462;&#xFF1F;</p>
+</blockquote>
+<p>&#x6240;&#x4EE5;&#x8FD9;&#x90E8;&#x7535;&#x5F71;&#x7ED9;&#x4E86;&#x6211;&#x5F88;&#x5F3A;&#x7684;&#x4EE3;&#x5165;&#x611F;&#x3002;&#x6211;&#x5C31;&#x50CF;&#x5F71;&#x7247;&#x4E2D;&#x826F;&#x591A;&#x7684;&#x513F;&#x5B50;&#x90A3;&#x6837;&#xFF0C;&#x672C;&#x8D28;&#x4E0A;&#x662F;&#x4E2A;&#x60B2;&#x89C2;&#x4E3B;&#x4E49;&#xFF0C;&#x4E5F;&#x6CA1;&#x4EC0;&#x4E48;&#x5F88;&#x5F3A;&#x7684;&#x81EA;&#x4FE1;&#x7684;&#x4EBA;&#x3002;&#x6211;&#x6709;&#x65F6;&#x5019;&#x5F88;&#x8BA8;&#x538C;&#x8FD9;&#x6837;&#x7684;&#x6211;&#xFF0C;&#x4F46;&#x6709;&#x65F6;&#x5019;&#x53C8;&#x89C9;&#x5F97;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x5BF9;&#x81EA;&#x5DF1;&#x8FD9;&#x4E48;&#x82DB;&#x523B;&#xFF0C;&#x4E0D;&#x80FD;&#x767E;&#x5206;&#x4E4B;&#x767E;&#x7684;&#x5766;&#x7136;&#x63A5;&#x53D7;&#x6211;&#x81EA;&#x5DF1;&#x5462;&#xFF1F;&#x4EBA;&#x751F;&#x5C31;&#x662F;&#x8FD9;&#x6837;&#xFF0C;&#x547D;&#x8FD0;&#x4E4B;&#x8DEF;&#x65E9;&#x5DF2;&#x6CE8;&#x5B9A;&#xFF0C;&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x6709;&#x597D;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E5F;&#x6709;&#x4E0D;&#x597D;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6240;&#x4EE5;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x597D;&#x53BB;&#x62B1;&#x6028;&#x7684;&#xFF0C;&#x81F3;&#x5C11;&#x8FD8;&#x6D3B;&#x7740;&#x4E0D;&#x662F;&#x5417;&#x3002;&#x800C;&#x6211;&#x7684;&#x6BCD;&#x4EB2;&#x5BF9;&#x7236;&#x4EB2;&#x7684;&#x7231;&#x60C5;&#x73B0;&#x5728;&#x8FD8;&#x5B58;&#x5728;&#x5417;&#xFF0C;&#x66FE;&#x7ECF;&#x50CF;&#x6D77;&#x8FD9;&#x6837;&#x6DF1;&#x523B;&#x5417;&#xFF0C;&#x6211;&#x4E0D;&#x77E5;&#x9053;&#xFF0C;&#x4E5F;&#x8BB8;&#x672A;&#x5FC5;&#x5427;&#x3002;&#x4F46;&#x662F;&#x65E5;&#x5B50;&#x8FD8;&#x4F1A;&#x662F;&#x5FAA;&#x73AF;&#x5F80;&#x590D;&#x7684;&#x4E00;&#x5929;&#x5929;&#x7684;&#x8FC7;&#x7740;&#xFF0C;&#x6211;&#x4EEC;&#x4EE8;&#x4F9D;&#x65E7;&#x5728;&#x4E00;&#x8D77;&#x751F;&#x6D3B;&#xFF0C;&#x548C;&#x5927;&#x5343;&#x4E16;&#x754C;&#x91CC;&#x7684;&#x6240;&#x6709;&#x5E73;&#x51E1;&#x5BB6;&#x5EAD;&#x4E00;&#x6837;&#xFF0C;&#x5145;&#x65A5;&#x7740;&#x518D;&#x5E73;&#x51E1;&#x4E0D;&#x8FC7;&#x7684;&#x559C;&#x6012;&#x54C0;&#x4E50;&#x3002;</p>
+<br>
+<p>&#x6B63;&#x5982;&#x6811;&#x6728;&#x5E0C;&#x6797;&#x7684;&#x90A3;&#x53E5;&#x53F0;&#x8BCD;&#xFF1A;</p>
+<blockquote>
+<p>&#x5E78;&#x798F;&#x8FD9;&#x79CD;&#x4E1C;&#x897F;&#xFF0C;&#x4E5F;&#x8BB8;&#x662F;&#x4E0D;&#x5B66;&#x4F1A;&#x653E;&#x5F03;&#x4E9B;&#x4EC0;&#x4E48;&#x5C31;&#x83B7;&#x5F97;&#x4E0D;&#x4E86;&#x7684;&#x3002;</p>
+</blockquote>
+<p>&#x751F;&#x6D3B;&#x5C31;&#x8FD9;&#x6837;&#x5C55;&#x73B0;&#x5728;&#x4F60;&#x7684;&#x9762;&#x524D;&#xFF0C;&#x8FC7;&#x53BB;&#x7684;&#x4E8B;&#x60C5;&#x4E5F;&#x90FD;&#x65E0;&#x6CD5;&#x6539;&#x53D8;&#xFF0C;&#x6211;&#x4EEC;&#x80FD;&#x505A;&#x5230;&#x7684;&#xFF0C;&#x5C31;&#x662F;&#x770B;&#x5F00;&#x4E00;&#x5207;&#xFF0C;&#x63A5;&#x53D7;&#x4E00;&#x5207;&#xFF0C;&#x7136;&#x540E;&#x6253;&#x8D77;&#x7CBE;&#x795E;&#x7EE7;&#x7EED;&#x7684;&#x8D70;&#x4E0B;&#x53BB;&#x3002;</p>
+
+            </div>
+
+            
+            <section class="reward">
+                <!-- Donate Module -->
+<div id="donate_module">
+    <style type="text/css">
+        .hidden {
+            display: none;
+        }
+        .donate_bar a.btn_donate {
+            display: inline-block;
+            width: 82px;
+            height: 82px;
+            background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+            _background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
+
+            -webkit-transition: background 0s;
+            -moz-transition: background 0s;
+            -o-transition: background 0s;
+            -ms-transition: background 0s;
+            transition: background 0s;
+        }
+        .donate_bar a.btn_donate:hover {
+            background-position: 0 -82px;
+        }
+        .donate_bar .donate_txt {
+            display: block;
+            color: #9d9d9d;
+            font: 14px/2 "Microsoft Yahei";
+        }
+        .bold {
+            font-weight: bold;
+        }
+
+        img.qrcode {
+            width: 90%;
+            margin-bottom: 10px;
+        }
+        @media only screen and (min-width: 1025px) {
+            img.qrcode {
+                width: 40%;
+                margin-right: 10px;
+            }
+        }
+
+    </style>
+
+    <!-- btn_donate & tips -->
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" target="_self" href="javascript:;" title="Donate 打赏"></a>
+        <span class="donate_txt">看完啦? 够意思!  土豪~交个朋友吧...</span>
+    </div>
+    <!-- /btn_donate & tips -->
+
+    <!-- donate guide -->
+    <div id="donate_guide" class="donate_bar center hidden">
+        
+        <img class="qrcode" src="http://7xr6h2.com1.z0.glb.clouddn.com/alipay.png" title="打赏"/>
+        
+        <img class="qrcode" src="http://7xr6h2.com1.z0.glb.clouddn.com/wechatMe.png" title="打赏"/>
+        
+    </div>
+    <!-- /donate guide -->
+
+    <!-- donate script -->
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function() {
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+
+        function donate_on_web() {
+            $('#donate').submit();
+        }
+    </script>
+    <!-- /donate script -->
+</div>
+<!-- /Donate Module -->
+
+            </section>
+            
+
+            <!-- 阅读量 -->
+            <span id="busuanzi_container_page_pv">
+            <i class="fa fa-eye"></i>
+                文章阅读量 <span id="busuanzi_value_page_pv" style="color:indigo">-link-context"></span>次
+            </span>
+        </div>
+    </div>
+
+</article>
+
+<!-- 分享-->
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"6","bdPos":"right","bdTop":"173.5"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
+    <section id="comment">
+        <div class="card">
+            <div class="card-content">
+                <!-- Changyan Comment BEGIN -->
+                <!--PC和WAP自适应版-->
+                <div id="SOHUCS" sid="movie-after-the-storm/"></div>
+                <script type="text/javascript">
+                    (function(){
+                        var appid = 'cysUBoMLM';
+                        var conf = 'prod_a50906365a850d1c20808db85906c755';
+                        var width = window.innerWidth || document.documentElement.clientWidth;
+                        if (width < 960) {
+                            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" ' +
+                                    'src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid +
+                                    '&conf=' + conf + '"><\/script>'); }
+                        else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]
+                                ||document.head||document.documentElement;var b=document.createElement("script");
+                            b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");
+                            b.setAttribute("src",d);
+                            if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=
+                                    function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}
+                            else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",
+                                function(){window.changyan.api.config({appid:appid,conf:conf})});
+                        } })();
+                </script>
+                <!-- Changyan Comment END -->
+            </div>
+        </div>
+    </section>
+
+
+<!--友言-->
+<!--&lt;!&ndash; UY BEGIN &ndash;&gt;-->
+<!--<div id="uyan_frame"></div>-->
+<!--<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2094227"></script>-->
+<!--&lt;!&ndash; UY END &ndash;&gt;-->
+</div>
+
+        <div class="fixed-action-btn float-sitemap">
+    <a class="btn-floating btn-large green">
+      <i class="fa fa-caret-square-o-up"></i>
+    </a>
+    <ul>
+      <li><a class="btn-return-top btn-floating waves-effect blue" title="回到顶部"><i class="fa fa-arrow-circle-o-up"></i></a></li>
+      <li><a class="btn-floating waves-effect button-collapse orange"  data-activates="main-menu" title="菜单"><i class="fa fa-navicon"></i></a></li>
+    </ul>
+  </div>
+
+    </main>
+    <footer class="page-footer indigo darken-1">
+    
+    <div class="container">
+        <div class="row">
+            
+            <div class="social-group col m4 s12">
+                <h5 class="white-text">社交</h5>
+                
+                    <a class="social-link" href="http://weibo.com/hydra7249" target="_blank">
+                        <i class="fa fa-2x fa-weibo"></i>
+                    </a>
+                
+                    <a class="social-link" href="http://www.douban.com/people/36529994/" target="_blank">
+                        <i class="fa fa-2x fa-star-half-o"></i>
+                    </a>
+                
+                    <a class="social-link" href="https://twitter.com/hydra7249" target="_blank">
+                        <i class="fa fa-2x fa-twitter"></i>
+                    </a>
+                
+                    <a class="social-link" href="https://www.pinterest.com/snowvivi/" target="_blank">
+                        <i class="fa fa-2x fa-pinterest"></i>
+                    </a>
+                
+                    <a class="social-link" href="https://github.com/olddoggie" target="_blank">
+                        <i class="fa fa-2x fa-github"></i>
+                    </a>
+                
+                    <a class="social-link" href="/atom.xml" target="_blank">
+                        <i class="fa fa-2x fa-rss"></i>
+                    </a>
+                
+            </div>
+            
+
+            
+            <div class="col m8 s12">
+                <h5 class="white-text">友情链接</h5>
+                
+                    <a class="social-link" href="http://foredoomed.org/" target="_blank">Zhixingheyi</a>
+                
+                    <a class="social-link" href="http://blog.sina.com.cn/rokgy" target="_blank">rokgy的博客</a>
+                
+                    <a class="social-link" href="http://www.dandyweng.com/" target="_blank">dandyweng的博客</a>
+                
+                    <a class="social-link" href="https://xiaolife.com/" target="_blank">Life Journal</a>
+                
+                    <a class="social-link" href="http://www.netcan666.com/" target="_blank">Netcan</a>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+    <div class="footer-copyright indigo-link-context">
+        <div class="container">
+            <div class="row">
+                <div class="col m4 s12">
+                    © 2017 jkup2.us, All rights reserved.
+                </div>
+                <div class="col m8 s12">
+                    <i class="fa fa-rocket"></i> Hexo | 主题 raytaylorism
+                    | 总字数 <span>79.2k</span>
+                    | 总访问量 <span id="busuanzi_value_site_pv"></span> |
+                    访客人次 <span id="busuanzi_value_site_uv"></span> |
+                    页点击量 <span id="busuanzi_value_page_pv"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+    </script>
+</footer>
+
+
+    <noscript>
+    <div class="noscript">
+        <p class="center-align">当前浏览器不支持博客完整功能。如果要获得最佳体验，请点击右上角···，复制链接，并在其它浏览器打开</p>
+    </div>
+</noscript>
+<div class="noscript">
+    <p class="center-align">当前浏览器不支持博客完整功能。如果要获得最佳体验，请点击右上角···，复制链接，并在其它浏览器打开</p>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/css/xcConfirm.css"/>
+
+<script src="/js/jquery-2.1.1.min.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script src="/js/search.js"></script>
+<script src="/js/base64.js"></script>
+<script src="/js/xcConfirm.js"></script>
+
+
+<script>
+(function($) {
+    $(document).ready(function() {
+        // 隐藏禁用javascript（针对微信内置浏览器）的提示
+        $('.noscript').hide();
+
+        // 图片缩放效果
+        var $imgs = $('img').not('.slider-image').not('.avatar-image').not('.carousel-image').not('.card-cover-image').not('.qrcode');
+
+        // 给图片加上点击放大效果（materialbox插件）
+        $imgs.addClass('materialboxed')
+            .each(function(i, el) {
+                $(this).attr('data-caption', $(this).attr('alt') || ' ');
+            }).materialbox();
+
+        // 首页幻灯片
+        $('.slider').slider({
+            indicators: true,
+            full_width: true,
+            interval: 8000
+        });
+
+        $(".button-collapse").sideNav();
+        $(".category-menu").sideNav();
+
+        // 针对gallery post
+        $('.carousel').carousel({
+            full_width: true
+        });
+        $('.carousel-control.prev').click(function() {
+            $('.carousel').carousel('prev');
+        });
+        $('.carousel-control.next').click(function() {
+            $('.carousel').carousel('next');
+        });
+
+        // 文章目录
+        $('article').not('.simple-article').find('h1').add('h2').add('h3').add('h4').add('h5').add('h6').scrollSpy();
+        // 修正文章目录的left-border颜色
+        var color = $('.table-of-contents-text').css('color');
+        $('.table-of-contents-link').css('border-left-color', color);
+
+        // 针对移动端做的优化：FAB按钮点击一下收回
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            $('.fixed-action-btn').addClass('click-to-toggle');
+        }
+        // 回到顶部
+        $('.btn-return-top').click(function() {
+            $('body, html').animate({
+                scrollTop: 0
+            }, 500);
+        });
+
+        // 重置读书页面的Tab标签页的颜色
+        $('li.tab a').hover(function() {
+            $(this).toggleClass('text-lighten-4');
+        });
+        $('.indicator').addClass('green lighten-2');
+
+        
+        // 添加new标签
+        $('.menu-reading').append('<span class="new badge pink"></span>');
+        
+    });
+})(jQuery);
+</script>
+
+
+<script src="/js/prettify.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("pre").addClass("prettyprint");
+        prettyPrint();
+    });
+</script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+<script type="text/javascript">
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+        search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+
+<!--1. category或tag页面是private/PRIVATE的需要密码-->
+<!--2. 文章tag当中有private/PRIVATE的需要密码-->
+<!--3. 理论上文章列表页面上tag当中有private/PRIVATE的文章已经被过滤,但如果存在,不影响页面展示,当点击文章链接后需要密码-->
+<script type="text/javascript">
+    var b = new Base64();
+    var passwd = b.decode("c3c=")
+    var url = window.location.toString().split("/");
+    var urlLen = url.length;
+    // <http_host>/categories/生活/private/ : 截取urlCat=categories; urlNm=private
+    var urlCat = url[urlLen-4].trim();
+    var urlNm = url[urlLen-2].trim();
+    (function(){
+        if( (urlCat == "categories" || urlCat == "tags") && (urlNm=="private" || urlNm == "PRIVATE")){
+//          不能使用较为方便的prompt方法,因为这样无法控制js的渲染顺序,有可能出现页面已经加载出内容,同时弹出密码框,这样起不到加密作用
+//            if(prompt('请输入文章密码') !== passwd){
+//                alert('密码错误！');
+//                history.back();
+//            }
+            // 解决方法是自己写popUp弹出框,并通过页面图层覆盖来达到防偷窥效果:
+            // 1. 先把页面至于全白
+            $('#loadingDiv').css('display','block');
+            // 2. 调用自定义的pop box ; 3. 回调函数中指定密码比较逻辑,比较成功后将全白图层隐藏
+            window.wxc.xcConfirm("请输入文章密码", window.wxc.xcConfirm.typeEnum.input,
+                    {onOk:function(v){
+                        if(v!=passwd) {
+                            alert('密码错误！');
+                            history.back();
+                        } else {
+                            $('#loadingDiv').css('display','none');
+                        }
+                    }} );
+        }
+    })();
+    var nonSecret= true;
+    var tags = document.getElementsByClassName("tags-row");
+    (function(){
+        for (var i = 0; i < tags.length; i++) {
+            var tagName = tags[i].innerHTML.replace(/<[^>]+>/g,"").trim();
+            if(urlCat!="page" && urlCat!="categories" && urlCat!="tags" &&(tagName.indexOf("private")>=0 || tagName.indexOf("PRIVATE")>=0)){
+                nonSecret=false
+            }
+        }
+        if (!nonSecret) {
+            // 1. 先把页面至于全白
+            $('#loadingDiv').css('display','block');
+            // 2. 调用自定义的pop box ; 3. 回调函数中指定密码比较逻辑,比较成功后将全白图层隐藏
+            window.wxc.xcConfirm("请输入文章密码", window.wxc.xcConfirm.typeEnum.input,
+                    {onOk:function(v){
+                        if(v!=passwd) {
+                            alert('密码错误！');
+                            history.back();
+                        } else {
+                            $('#loadingDiv').css('display','none');
+                        }
+                    }} );
+        }
+    })();
+    // 收藏页面的 TO DO 部分暂时没有必要加密,只是一些在读的书和博客方面的想法
+//    (function(){
+//        if(urlNm == "reading"){
+//            // 点击按钮后触发加密事件
+//            var readingType = document.getElementsByClassName('green-text');
+//            readingType[2].onclick = function() {
+//                // 1. 先把页面至于全白
+//                $('#loadingDiv').css('display','block');
+//                // 2. 调用自定义的pop box ; 3. 回调函数中指定密码比较逻辑,比较成功后将全白图层隐藏
+//                window.wxc.xcConfirm("请输入文章密码", window.wxc.xcConfirm.typeEnum.input,
+//                        {onOk:function(v){
+//                            if(v!=passwd) {
+//                                alert('密码错误！');
+//                                history.back();
+//                            } else {
+//                                $('#loadingDiv').css('display','none');
+//                            }
+//                        }} );
+//            }
+//        }
+//    })();
+</script>
+
+</body>
+</html>
